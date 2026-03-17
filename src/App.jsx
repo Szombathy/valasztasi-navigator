@@ -60,11 +60,8 @@ export default function App() {
         ) : (
           <>
             {showWelcome && (
-              <div className="text-center py-6">
-                <p className="text-lg text-gray-700 dark:text-gray-300 font-medium mb-1">
-                  Kérdezz bármit a választásról!
-                </p>
-                <p className="text-sm text-gray-400 dark:text-gray-500 mb-5">
+              <div className="text-center">
+                <p className="text-sm text-gray-400 dark:text-gray-500 mb-3">
                   Például:
                 </p>
                 <div className="flex flex-wrap justify-center gap-2 mb-6">
@@ -72,7 +69,7 @@ export default function App() {
                     <button
                       key={text}
                       onClick={() => handleExampleClick(text)}
-                      className="text-sm px-3 py-1.5 rounded-full border border-primary/30 text-primary hover:bg-primary/10 dark:border-primary/40 dark:text-emerald-400 dark:hover:bg-primary/10 transition-colors"
+                      className="text-sm px-3 py-1.5 rounded-full border border-primary/30 bg-[rgba(0,0,0,0.04)] text-primary hover:bg-[rgba(0,0,0,0.08)] dark:border-primary/40 dark:bg-[rgba(255,255,255,0.08)] dark:text-emerald-400 dark:hover:bg-[rgba(255,255,255,0.14)] transition-colors"
                     >
                       {text}
                     </button>

@@ -28,7 +28,7 @@ export default function SearchBar({ query, onChange, onClear }) {
         onChange={(e) => onChange(e.target.value)}
         onKeyDown={handleKeyDown}
         placeholder="Kérdezz bármit a választásról..."
-        className="w-full pl-12 pr-10 py-3.5 text-base bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl focus:border-2 focus:border-primary dark:focus:border-primary focus:outline-none transition-all placeholder:opacity-50 placeholder:text-sm text-gray-900 dark:text-white"
+        className="search-input w-full pl-12 pr-10 py-3.5 text-base bg-white dark:bg-gray-900 rounded-xl focus:outline-none placeholder:opacity-50 placeholder:text-sm text-gray-900 dark:text-white"
         aria-label="Keresés a kérdések között"
       />
       {query && (

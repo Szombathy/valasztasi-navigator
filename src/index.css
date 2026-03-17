@@ -16,6 +16,21 @@ body {
   margin: 0;
 }
 
+/* Search input border */
+.search-input {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  transition: border-color 200ms;
+}
+.search-input:focus {
+  border: 2px solid #1D9E75;
+}
+:where(.dark) .search-input {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+:where(.dark) .search-input:focus {
+  border-color: #1D9E75;
+}
+
 /* Category scrollbar hide */
 .category-scroll::-webkit-scrollbar { display: none; }
 .category-scroll { -ms-overflow-style: none; scrollbar-width: none; }
