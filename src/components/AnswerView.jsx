@@ -1,12 +1,19 @@
 import { marked } from 'marked'
 import { useMemo } from 'react'
-import DifficultyBadge from './DifficultyBadge.jsx'
 import SourceLink from './SourceLink.jsx'
 
 marked.setOptions({ breaks: true, gfm: true })
 
+const DIFFICULTY_COLORS = {
+  'egyszerű': 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400',
+  'közepes': 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400',
+  'részletes': 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400',
+  'haladó': 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400',
+}
+
 export default function AnswerView({ item, onClose }) {
   const html = useMemo(() => marked.parse(item.answer), [item.answer])
+  const diffClass = DIFFICULTY_COLORS[item.difficulty] || DIFFICULTY_COLORS['egyszerű']
 
   const handleShare = async () => {
     const text = `${item.question}\n\n${item.answer.slice(0, 200)}...\n\n— Családi Választási Navigátor`
@@ -23,7 +30,7 @@ export default function AnswerView({ item, onClose }) {
   return (
     <div className="animate-slide-down mt-3 pt-3 border-t border-gray-100 dark:border-gray-700">
       <div
-        className="prose prose-sm dark:prose-invert max-w-none text-gray-700 dark:text-gray-300 text-left"
+        className="answer-prose prose prose-sm dark:prose-invert max-w-none text-gray-700 dark:text-gray-300 text-left"
         dangerouslySetInnerHTML={{ __html: html }}
       />
 
@@ -39,7 +46,9 @@ export default function AnswerView({ item, onClose }) {
       )}
 
       <div className="mt-4 flex items-center justify-between">
-        <DifficultyBadge difficulty={item.difficulty} />
+        <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${diffClass}`}>
+          {item.difficulty}
+        </span>
         <div className="flex gap-2">
           <button
             onClick={handleShare}

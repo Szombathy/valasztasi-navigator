@@ -9,6 +9,13 @@ import OfflineIndicator from './components/OfflineIndicator.jsx'
 import FeedbackButton from './components/FeedbackButton.jsx'
 import Footer from './components/Footer.jsx'
 
+const EXAMPLE_SEARCHES = [
+  'Miért drága minden?',
+  'Mi a helyzet az egészségügyben?',
+  'Hogyan működik a választás?',
+  'Mennyit keresnek a tanárok?',
+]
+
 export default function App() {
   const { data, loading, error } = useDatabase()
   const questions = data?.questions || []
@@ -19,6 +26,10 @@ export default function App() {
   const isOffline = useOffline()
 
   const showWelcome = !query && !activeCategory && !isSearching
+
+  const handleExampleClick = (text) => {
+    handleQueryChange(text)
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100">
@@ -36,10 +47,6 @@ export default function App() {
           <SearchBar query={query} onChange={handleQueryChange} onClear={clearSearch} />
         </div>
 
-        <div className="mb-6">
-          <CategoryFilter activeCategory={activeCategory} onCategoryChange={handleCategoryChange} />
-        </div>
-
         {loading ? (
           <div className="space-y-3">
             {[1, 2, 3].map(i => (
@@ -53,24 +60,39 @@ export default function App() {
         ) : (
           <>
             {showWelcome && (
-              <div className="text-center py-8">
-                <div className="mb-4">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-16 h-16 mx-auto text-primary/40">
-                    <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
-                  </svg>
+              <div className="text-center py-6">
+                <p className="text-lg text-gray-700 dark:text-gray-300 font-medium mb-1">
+                  Kérdezz bármit a választásról!
+                </p>
+                <p className="text-sm text-gray-400 dark:text-gray-500 mb-5">
+                  Például:
+                </p>
+                <div className="flex flex-wrap justify-center gap-2 mb-6">
+                  {EXAMPLE_SEARCHES.map((text) => (
+                    <button
+                      key={text}
+                      onClick={() => handleExampleClick(text)}
+                      className="text-sm px-3 py-1.5 rounded-full border border-primary/30 text-primary hover:bg-primary/10 dark:border-primary/40 dark:text-emerald-400 dark:hover:bg-primary/10 transition-colors"
+                    >
+                      {text}
+                    </button>
+                  ))}
                 </div>
-                <p className="text-lg text-gray-600 dark:text-gray-400 mb-2">
-                  Írd be, ami érdekel — például:
+                <p className="text-xs text-gray-400 dark:text-gray-500 mb-4">
+                  vagy böngéssz témák szerint:
                 </p>
-                <p className="text-primary font-medium italic">
-                  „miért drága az élet?"
-                </p>
-                <p className="text-sm text-gray-400 dark:text-gray-500 mt-4">
-                  vagy válassz témakört a fenti gombokkal
-                </p>
+                <div className="mb-2">
+                  <CategoryFilter activeCategory={activeCategory} onCategoryChange={handleCategoryChange} />
+                </div>
                 <p className="text-xs text-gray-400 dark:text-gray-600 mt-6">
                   {questions.length} kérdés-válasz pár az adatbázisban
                 </p>
+              </div>
+            )}
+
+            {!showWelcome && (
+              <div className="mb-6">
+                <CategoryFilter activeCategory={activeCategory} onCategoryChange={handleCategoryChange} />
               </div>
             )}
 

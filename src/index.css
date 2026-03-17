@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+/* Category scrollbar hide */
+.category-scroll::-webkit-scrollbar { display: none; }
+.category-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
@@ -42,4 +46,13 @@ body {
 
 .skeleton {
   animation: pulse-skeleton 1.5s ease-in-out infinite;
+}
+
+/* Answer prose: readable line-height and paragraph spacing */
+.answer-prose p {
+  margin-bottom: 0.75em;
+  line-height: 1.7;
+}
+.answer-prose p:last-child {
+  margin-bottom: 0;
 }

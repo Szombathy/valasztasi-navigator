@@ -6,9 +6,9 @@ export default function ResultList({ results, isSearching, query, activeCategory
       <div className="space-y-3">
         {[1, 2, 3].map(i => (
           <div key={i} className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl p-4">
-            <div className="skeleton h-5 w-3/4 mb-3 rounded" />
-            <div className="skeleton h-4 w-full mb-2 rounded" />
-            <div className="skeleton h-4 w-2/3 rounded" />
+            <div className="skeleton h-5 w-3/4 mb-3 bg-gray-200 dark:bg-gray-700 rounded" />
+            <div className="skeleton h-4 w-full mb-2 bg-gray-200 dark:bg-gray-700 rounded" />
+            <div className="skeleton h-4 w-2/3 bg-gray-200 dark:bg-gray-700 rounded" />
           </div>
         ))}
       </div>
@@ -36,7 +36,7 @@ export default function ResultList({ results, isSearching, query, activeCategory
   if (results.length === 0) return null
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-3.5">
       {results.map((item, i) => (
         <ResultCard key={item.id} item={item} index={i} />
       ))}
