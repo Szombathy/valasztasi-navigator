@@ -12,12 +12,17 @@
         "áremelkedés",
         "KSH",
         "MNB",
-        "fogyasztói árak"
+        "fogyasztói árak",
+        "ár",
+        "bank",
+        "élelmiszer"
       ],
       "synonyms": [
         "drágulás",
         "pénzromlás",
-        "árak emelkedése"
+        "árak emelkedése",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -47,13 +52,21 @@
         "ingatlanárak",
         "albérlet",
         "CSOK",
-        "lakáspiac"
+        "lakáspiac",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "lakásárak",
         "ingatlan",
         "lakáspiac",
-        "otthonteremtés"
+        "otthonteremtés",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -83,13 +96,21 @@
         "minimálbér",
         "reálbér",
         "átlagkereset",
-        "vásárlóerő"
+        "vásárlóerő",
+        "infláció",
+        "ár",
+        "forint"
       ],
       "synonyms": [
         "fizetés",
         "jövedelem",
         "kereset",
-        "munkabér"
+        "munkabér",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -119,12 +140,20 @@
         "egyenlőtlenség",
         "Gini",
         "gyermekszegénység",
-        "társadalmi kirekesztődés"
+        "társadalmi kirekesztődés",
+        "ár",
+        "lakás",
+        "adó"
       ],
       "synonyms": [
         "nélkülözés",
         "társadalmi olló",
-        "jövedelmi különbségek"
+        "jövedelmi különbségek",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -154,12 +183,20 @@
         "árfolyam",
         "deviza",
         "euró",
-        "MNB"
+        "MNB",
+        "ár",
+        "drága",
+        "hitel"
       ],
       "synonyms": [
         "forintgyengülés",
         "valutaárfolyam",
-        "devizaárfolyam"
+        "devizaárfolyam",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -189,12 +226,18 @@
         "tanárhiány",
         "sztrájk",
         "OECD",
-        "oktatás"
+        "oktatás",
+        "tanár",
+        "pedagógus"
       ],
       "synonyms": [
         "tanári fizetés",
         "pedagógus sztrájk",
-        "tanárbérek"
+        "tanárbérek",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -224,12 +267,19 @@
         "oktatási teljesítmény",
         "OECD",
         "szövegértés",
-        "matematika"
+        "matematika",
+        "iskola",
+        "tanár",
+        "diák"
       ],
       "synonyms": [
         "PISA-teszt",
         "iskolai teljesítmény",
-        "oktatás minősége"
+        "oktatás minősége",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -259,12 +309,17 @@
         "modellváltás",
         "alapítvány",
         "felsőoktatás",
-        "akadémiai szabadság"
+        "akadémiai szabadság",
+        "oktatás"
       ],
       "synonyms": [
         "egyetemi modellváltás",
         "alapítványi egyetem",
-        "felsőoktatási reform"
+        "felsőoktatási reform",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -294,12 +349,18 @@
         "oktatási költségvetés",
         "Klebelsberg",
         "tankönyv",
-        "infrastruktúra"
+        "infrastruktúra",
+        "iskola",
+        "oktatás"
       ],
       "synonyms": [
         "iskolai felszereltség",
         "oktatásfinanszírozás",
-        "iskolaépületek"
+        "iskolaépületek",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -329,12 +390,19 @@
         "szegregáció",
         "roma",
         "területi egyenlőtlenség",
-        "iskolaválasztás"
+        "iskolaválasztás",
+        "iskola",
+        "pedagógus",
+        "oktatás"
       ],
       "synonyms": [
         "oktatási egyenlőtlenség",
         "iskolai szegregáció",
-        "hátrányos helyzet"
+        "hátrányos helyzet",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -539,12 +607,18 @@
         "elvándorlás",
         "háziorvos",
         "béremelés",
-        "egészségügy"
+        "egészségügy",
+        "kórház",
+        "orvos"
       ],
       "synonyms": [
         "orvoselvándorlás",
         "doktorhiány",
-        "egészségügyi munkaerő"
+        "egészségügyi munkaerő",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -574,12 +648,18 @@
         "műtét",
         "NEAK",
         "magánegészségügy",
-        "ellátás"
+        "ellátás",
+        "kórház",
+        "orvos",
+        "beteg"
       ],
       "synonyms": [
         "várakozási idő",
         "egészségügyi ellátás",
-        "műtéti várólista"
+        "műtéti várólista",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -609,12 +689,18 @@
         "infrastruktúra",
         "OKFŐ",
         "bezárás",
-        "centralizáció"
+        "centralizáció",
+        "beteg",
+        "egészségügy"
       ],
       "synonyms": [
         "kórházfelújítás",
         "kórházbezárás",
-        "egészségügyi infrastruktúra"
+        "egészségügyi infrastruktúra",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -644,12 +730,18 @@
         "pszichológus",
         "öngyilkosság",
         "depresszió",
-        "pszichoterápia"
+        "pszichoterápia",
+        "egészségügy",
+        "várolista"
       ],
       "synonyms": [
         "lelki egészség",
         "pszichiátria",
-        "mentálhigiéné"
+        "mentálhigiéné",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -679,12 +771,19 @@
         "GDP",
         "finanszírozás",
         "NEAK",
-        "WHO"
+        "WHO",
+        "orvos",
+        "beteg",
+        "egészségügy"
       ],
       "synonyms": [
         "egészségügyi költségvetés",
         "ráfordítás",
-        "közegészségügy"
+        "közegészségügy",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -714,12 +813,19 @@
         "OLAF",
         "EPPO",
         "közbeszerzés",
-        "átláthatóság"
+        "átláthatóság",
+        "korrupció",
+        "ÁSZ"
       ],
       "synonyms": [
         "uniós pénzek",
         "EU-pályázatok",
-        "forrásfelhasználás"
+        "forrásfelhasználás",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -749,12 +855,19 @@
         "oligarcha",
         "Mészáros",
         "közbeszerzés",
-        "vagyongyarapodás"
+        "vagyongyarapodás",
+        "korrupció",
+        "átláthatóság"
       ],
       "synonyms": [
         "kormányközeli oligarchák",
         "NER-vállalkozók",
-        "politikai oligarchia"
+        "politikai oligarchia",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -784,12 +897,20 @@
         "Transparency International",
         "korrupció",
         "rangsor",
-        "GRECO"
+        "GRECO",
+        "közbeszerzés",
+        "közpénz",
+        "átláthatóság"
       ],
       "synonyms": [
         "korrupciós index",
         "korrupciós rangsor",
-        "TI index"
+        "TI index",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -824,7 +945,12 @@
       "synonyms": [
         "közbeszerzési eljárás",
         "állami megrendelés",
-        "tender"
+        "tender",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -854,12 +980,19 @@
         "EU-feltétel",
         "korrupcióellenes",
         "közbeszerzés",
-        "ellenőrzés"
+        "ellenőrzés",
+        "korrupció",
+        "uniós pénz"
       ],
       "synonyms": [
         "integritási hatóság",
         "antikorrupciós intézmény",
-        "korrupcióellenes hivatal"
+        "korrupcióellenes hivatal",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -889,12 +1022,18 @@
         "RSF",
         "Freedom House",
         "média",
-        "független újságírás"
+        "független újságírás",
+        "szabadság",
+        "kormány"
       ],
       "synonyms": [
         "médiaszabadság",
         "sajtószabadság-index",
-        "szabad sajtó"
+        "szabad sajtó",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -924,12 +1063,17 @@
         "bíróság",
         "Alkotmánybíróság",
         "Velencei Bizottság",
-        "jogállam"
+        "jogállam",
+        "kormány"
       ],
       "synonyms": [
         "bírói függetlenség",
         "igazságügy",
-        "bírósági rendszer"
+        "bírósági rendszer",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -959,12 +1103,19 @@
         "ODIHR",
         "EBESZ",
         "kampányfinanszírozás",
-        "választási rendszer"
+        "választási rendszer",
+        "szabadság",
+        "emberi jogok",
+        "ellenzék"
       ],
       "synonyms": [
         "választási tisztesség",
         "választási csalás",
-        "szabad választás"
+        "szabad választás",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -994,12 +1145,19 @@
         "NGO",
         "Lex CEU",
         "Helsinki Bizottság",
-        "TASZ"
+        "TASZ",
+        "demokrácia",
+        "bíróság",
+        "kormány"
       ],
       "synonyms": [
         "civil társadalom",
         "nonprofit szektor",
-        "jogvédő szervezet"
+        "jogvédő szervezet",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -1029,12 +1187,19 @@
         "Freedom House",
         "V-Dem",
         "illiberális demokrácia",
-        "autokrácia"
+        "autokrácia",
+        "demokrácia",
+        "választás",
+        "szabadság"
       ],
       "synonyms": [
         "félig szabad",
         "választási autokrácia",
-        "illiberális állam"
+        "illiberális állam",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -1069,7 +1234,11 @@
       "synonyms": [
         "rezsi",
         "közüzemi díj",
-        "energiaár"
+        "energiaár",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -1099,12 +1268,19 @@
         "atomenergia",
         "Roszatom",
         "atomerőmű",
-        "beruházás"
+        "beruházás",
+        "energia",
+        "Paks",
+        "megújuló"
       ],
       "synonyms": [
         "paksi atomerőmű",
         "nukleáris energia",
-        "Paks bővítés"
+        "Paks bővítés",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -1134,12 +1310,19 @@
         "energiafüggőség",
         "Gazprom",
         "kőolaj",
-        "diverzifikáció"
+        "diverzifikáció",
+        "energia",
+        "gáz",
+        "földgáz"
       ],
       "synonyms": [
         "gázfüggőség",
         "orosz energia",
-        "energiaimport"
+        "energiaimport",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -1169,13 +1352,20 @@
         "napenergia",
         "szélenergia",
         "zöld energia",
-        "klímaterv"
+        "klímaterv",
+        "energia",
+        "megújuló",
+        "klíma"
       ],
       "synonyms": [
         "zöld energia",
         "napelem",
         "szélerőmű",
-        "fenntartható energia"
+        "fenntartható energia",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -1205,12 +1395,19 @@
         "ipari energiaár",
         "gazdaság",
         "energiahatékonyság",
-        "ipar"
+        "ipar",
+        "energia",
+        "gáz",
+        "függőség"
       ],
       "synonyms": [
         "energiaárak emelkedése",
         "ipari energiaköltség",
-        "gazdasági hatás"
+        "gazdasági hatás",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -1240,12 +1437,18 @@
         "médiakoncentráció",
         "médiapiac",
         "GVH",
-        "sajtó"
+        "sajtó",
+        "média",
+        "közmédia",
+        "MTVA"
       ],
       "synonyms": [
         "médiaalapítvány",
         "médiabirodalom",
-        "sajtókoncentráció"
+        "sajtókoncentráció",
+        "tájékoztatás",
+        "hírek",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -1275,12 +1478,19 @@
         "MTVA",
         "M1",
         "Médiatanács",
-        "közszolgálat"
+        "közszolgálat",
+        "média",
+        "televízió",
+        "rádió"
       ],
       "synonyms": [
         "állami média",
         "köztévé",
-        "közszolgálati média"
+        "közszolgálati média",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -1310,12 +1520,19 @@
         "RSF",
         "Freedom House",
         "médiarangsor",
-        "pluralizmus"
+        "pluralizmus",
+        "média",
+        "sajtó",
+        "cenzúra"
       ],
       "synonyms": [
         "sajtószabadság rangsor",
         "médiaszabadság index",
-        "újságírói szabadság"
+        "újságírói szabadság",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -1345,12 +1562,19 @@
         "Telex",
         "444",
         "oknyomozás",
-        "Direkt36"
+        "Direkt36",
+        "média",
+        "sajtó",
+        "televízió"
       ],
       "synonyms": [
         "független sajtó",
         "online média",
-        "szabad újságírás"
+        "szabad újságírás",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -1380,12 +1604,17 @@
         "médiapiac",
         "hirdetési bevétel",
         "EMFA",
-        "közpénz"
+        "közpénz",
+        "média"
       ],
       "synonyms": [
         "kormányzati hirdetés",
         "médiafinanszírozás",
-        "hirdetéselosztás"
+        "hirdetéselosztás",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -1415,12 +1644,17 @@
         "forint",
         "vásárlóerő",
         "KSH",
-        "MNB"
+        "MNB",
+        "ár",
+        "bér",
+        "élelmiszer"
       ],
       "synonyms": [
         "drágulás",
         "pénzromlás",
-        "áremelkedés"
+        "áremelkedés",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1445,12 +1679,20 @@
         "minimálbér",
         "garantált bérminimum",
         "béremelés",
-        "foglalkoztatás"
+        "foglalkoztatás",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "legkisebb fizetés",
         "minimálfizetés",
-        "alapbér"
+        "alapbér",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1476,13 +1718,21 @@
         "mediánbér",
         "jövedelemeloszlás",
         "KSH",
-        "keresetek"
+        "keresetek",
+        "ár",
+        "forint",
+        "költség"
       ],
       "synonyms": [
         "fizetés",
         "kereset",
         "bér",
-        "jövedelem"
+        "jövedelem",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1503,12 +1753,20 @@
         "reálbér",
         "infláció",
         "vásárlóerő",
-        "bérnövekedés"
+        "bérnövekedés",
+        "ár",
+        "bér",
+        "rezsi"
       ],
       "synonyms": [
         "valódi bér",
         "vásárlóerő",
-        "reálkereset"
+        "reálkereset",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1534,13 +1792,21 @@
         "nettó bér",
         "SZJA",
         "TB-járulék",
-        "adók"
+        "adók",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "fizetés",
         "adóteher",
         "levonások",
-        "bérszámfejtés"
+        "bérszámfejtés",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1562,12 +1828,20 @@
         "adórendszer",
         "fogyasztási adó",
         "megélhetés",
-        "regresszív adó"
+        "regresszív adó",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "forgalmi adó",
         "áfa-kulcs",
-        "általános forgalmi adó"
+        "általános forgalmi adó",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1593,12 +1867,20 @@
         "egykulcsos adó",
         "adórendszer",
         "igazságosság",
-        "progresszív adó"
+        "progresszív adó",
+        "ár",
+        "kereset",
+        "adó"
       ],
       "synonyms": [
         "flat tax",
         "jövedelemadó",
-        "adóigazságosság"
+        "adóigazságosság",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1623,12 +1905,20 @@
         "családi adókedvezmény",
         "SZJA",
         "gyermekvállalás",
-        "családpolitika"
+        "családpolitika",
+        "ár",
+        "forint",
+        "adó"
       ],
       "synonyms": [
         "adókedvezmény",
         "családi kedvezmény",
-        "gyerekkedvezmény"
+        "gyerekkedvezmény",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1654,12 +1944,20 @@
         "CSOK Plusz",
         "lakástámogatás",
         "családpolitika",
-        "lakáshitel"
+        "lakáshitel",
+        "ár",
+        "forint",
+        "lakás"
       ],
       "synonyms": [
         "családi otthonteremtési kedvezmény",
         "lakáspályázat",
-        "állami támogatás lakásra"
+        "állami támogatás lakásra",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1684,12 +1982,20 @@
         "Babaváró hitel",
         "családpolitika",
         "gyermekvállalás",
-        "hitel"
+        "hitel",
+        "ár",
+        "forint",
+        "adó"
       ],
       "synonyms": [
         "babaváró kölcsön",
         "kamatmentes hitel",
-        "családalapítási hitel"
+        "családalapítási hitel",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1710,13 +2016,20 @@
         "lakásárak",
         "ingatlanpiac",
         "Budapest",
-        "lakhatás"
+        "lakhatás",
+        "ár",
+        "drágulás",
+        "forint"
       ],
       "synonyms": [
         "ingatlanárak",
         "lakáspiac",
         "lakásdrágulás",
-        "házárak"
+        "házárak",
+        "pénzromlás",
+        "áremelkedés",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1741,13 +2054,21 @@
         "albérlet",
         "lakhatás",
         "Budapest",
-        "bérleti díj"
+        "bérleti díj",
+        "infláció",
+        "ár",
+        "forint"
       ],
       "synonyms": [
         "lakásbérlés",
         "albérletárak",
         "bérlakás",
-        "kiadó lakás"
+        "kiadó lakás",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1773,13 +2094,21 @@
         "energiaárak",
         "gáz",
         "villany",
-        "közműdíjak"
+        "közműdíjak",
+        "ár",
+        "forint",
+        "adó"
       ],
       "synonyms": [
         "rezsi",
         "energia ára",
         "közüzemi díjak",
-        "gázár"
+        "gázár",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1804,12 +2133,20 @@
         "ársapka",
         "élelmiszerárak",
         "infláció",
-        "fogyasztóvédelem"
+        "fogyasztóvédelem",
+        "ár",
+        "bér",
+        "élelmiszer"
       ],
       "synonyms": [
         "hatósági ár",
         "árstop",
-        "élelmiszer árstop"
+        "élelmiszer árstop",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1834,13 +2171,21 @@
         "benzinár",
         "dízelár",
         "üzemanyag",
-        "ársapka"
+        "ársapka",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "üzemanyagár",
         "tankolás",
         "benzin ára",
-        "gázolaj ára"
+        "gázolaj ára",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1865,13 +2210,21 @@
         "nyugdíj",
         "nyugdíjkorhatár",
         "öregségi nyugdíj",
-        "minimálnyugdíj"
+        "minimálnyugdíj",
+        "infláció",
+        "ár",
+        "forint"
       ],
       "synonyms": [
         "nyugellátás",
         "öregségi nyugdíj",
         "nyugdíjas",
-        "penziós"
+        "penziós",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1896,12 +2249,20 @@
         "szegénység",
         "társadalmi kirekesztődés",
         "jövedelemeloszlás",
-        "Eurostat"
+        "Eurostat",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "szegénységi küszöb",
         "szegények aránya",
-        "létminimum"
+        "létminimum",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1926,12 +2287,20 @@
         "gyermekszegénység",
         "szegénység",
         "gyermekvédelem",
-        "esélyegyenlőtlenség"
+        "esélyegyenlőtlenség",
+        "ár",
+        "bér",
+        "adó"
       ],
       "synonyms": [
         "gyerekszegénység",
         "szegény gyerekek",
-        "hátrányos helyzet"
+        "hátrányos helyzet",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1956,12 +2325,20 @@
         "Gini-index",
         "egyenlőtlenség",
         "jövedelemeloszlás",
-        "társadalmi rétegződés"
+        "társadalmi rétegződés",
+        "ár",
+        "adó",
+        "gáz"
       ],
       "synonyms": [
         "jövedelmi különbségek",
         "gazdasági egyenlőtlenség",
-        "társadalmi olló"
+        "társadalmi olló",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -1986,12 +2363,19 @@
         "munkanélküliség",
         "foglalkoztatás",
         "munkaerőpiac",
-        "KSH"
+        "KSH",
+        "ár",
+        "bér"
       ],
       "synonyms": [
         "álláskeresés",
         "munkanélküli",
-        "állástalanság"
+        "állástalanság",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2016,12 +2400,20 @@
         "közmunka",
         "közfoglalkoztatás",
         "munkaerőpiac",
-        "szociálpolitika"
+        "szociálpolitika",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "közfoglalkoztatás",
         "közmunkaprogram",
-        "közmunkás"
+        "közmunkás",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2046,12 +2438,20 @@
         "KATA",
         "kisvállalkozás",
         "adózás",
-        "egyéni vállalkozó"
+        "egyéni vállalkozó",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "kisadózó",
         "katás",
-        "kisvállalkozói adó"
+        "kisvállalkozói adó",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2076,12 +2476,20 @@
         "államadósság",
         "költségvetés",
         "GDP",
-        "állampapír"
+        "állampapír",
+        "ár",
+        "forint",
+        "fizetés"
       ],
       "synonyms": [
         "nemzeti adósság",
         "közadósság",
-        "államháztartási hiány"
+        "államháztartási hiány",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2107,13 +2515,21 @@
         "árfolyam",
         "euró",
         "MNB",
-        "devizapiac"
+        "devizapiac",
+        "ár",
+        "drága",
+        "bér"
       ],
       "synonyms": [
         "forint gyengülése",
         "valutaárfolyam",
         "euró-forint",
-        "pénz értéke"
+        "pénz értéke",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2138,12 +2554,20 @@
         "euró",
         "monetáris politika",
         "maastrichti kritériumok",
-        "EU"
+        "EU",
+        "infláció",
+        "ár",
+        "forint"
       ],
       "synonyms": [
         "euró bevezetése",
         "közös valuta",
-        "eurózóna"
+        "eurózóna",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2168,12 +2592,20 @@
         "kivándorlás",
         "brain drain",
         "munkaerőhiány",
-        "migráció"
+        "migráció",
+        "ár",
+        "adó",
+        "gáz"
       ],
       "synonyms": [
         "elvándorlás",
         "emigráció",
-        "munkavállalás külföldön"
+        "munkavállalás külföldön",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2198,12 +2630,20 @@
         "bérkülönbség",
         "területi egyenlőtlenség",
         "Budapest",
-        "vidék"
+        "vidék",
+        "ár",
+        "bér",
+        "kereset"
       ],
       "synonyms": [
         "Budapest vidék különbség",
         "regionális egyenlőtlenség",
-        "vidéki bérek"
+        "vidéki bérek",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2225,13 +2665,20 @@
         "agrárszektor",
         "aszály",
         "KAP",
-        "vidékfejlesztés"
+        "vidékfejlesztés",
+        "ár",
+        "drágulás",
+        "adó"
       ],
       "synonyms": [
         "agrárium",
         "gazdálkodás",
         "földművelés",
-        "termelés"
+        "termelés",
+        "pénzromlás",
+        "áremelkedés",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2256,13 +2703,21 @@
         "multinacionális cégek",
         "külföldi befektetés",
         "ipar",
-        "FDI"
+        "FDI",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "multik",
         "külföldi cégek",
         "befektetők",
-        "multinacionálisok"
+        "multinacionálisok",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2287,12 +2742,20 @@
         "turizmus",
         "vendéglátás",
         "Budapest",
-        "idegenforgalom"
+        "idegenforgalom",
+        "ár",
+        "forint",
+        "költség"
       ],
       "synonyms": [
         "turisztikai bevételek",
         "idegenforgalom",
-        "vendégéjszakák"
+        "vendégéjszakák",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2317,13 +2780,21 @@
         "szociális ellátás",
         "segélyezés",
         "családi pótlék",
-        "társadalombiztosítás"
+        "társadalombiztosítás",
+        "ár",
+        "forint",
+        "kereset"
       ],
       "synonyms": [
         "segély",
         "szociális háló",
         "ellátórendszer",
-        "juttatások"
+        "juttatások",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2348,12 +2819,20 @@
         "klímaváltozás",
         "aszály",
         "energiaátmenet",
-        "megélhetés"
+        "megélhetés",
+        "ár",
+        "bér",
+        "élelmiszer"
       ],
       "synonyms": [
         "globális felmelegedés",
         "klímakrízis",
-        "időjárás-szélsőségek"
+        "időjárás-szélsőségek",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2378,12 +2857,20 @@
         "fiatalok",
         "pályakezdők",
         "lakáshelyzet",
-        "megtakarítás"
+        "megtakarítás",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "fiatal felnőttek",
         "pályakezdő fizetés",
-        "ifjúsági szegénység"
+        "ifjúsági szegénység",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2408,12 +2895,19 @@
         "gyermeknevelés",
         "családi kiadások",
         "gyermekvállalás",
-        "költségek"
+        "költségek",
+        "ár",
+        "forint",
+        "lakás"
       ],
       "synonyms": [
         "gyereknevelés költségei",
         "családi költségvetés",
-        "gyerek költsége"
+        "gyerek költsége",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság"
       ],
       "sources": [
         {
@@ -2438,12 +2932,20 @@
         "közműdíjak",
         "rezsi",
         "vízdíj",
-        "szemétszállítás"
+        "szemétszállítás",
+        "ár",
+        "forint",
+        "adó"
       ],
       "synonyms": [
         "közmű",
         "rezsidíjak",
-        "közüzemi díjak"
+        "közüzemi díjak",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2468,13 +2970,21 @@
         "feketegazdaság",
         "adóelkerülés",
         "NAV",
-        "rejtett gazdaság"
+        "rejtett gazdaság",
+        "ár",
+        "bér",
+        "fizetés"
       ],
       "synonyms": [
         "szürkegazdaság",
         "zsebbe fizetés",
         "adócsalás",
-        "feketézés"
+        "feketézés",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2499,12 +3009,20 @@
         "vállalkozás",
         "üzleti környezet",
         "társasági adó",
-        "KKV"
+        "KKV",
+        "ár",
+        "adó",
+        "bank"
       ],
       "synonyms": [
         "vállalkozói klíma",
         "cégalapítás",
-        "üzleti feltételek"
+        "üzleti feltételek",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2529,12 +3047,19 @@
         "ipar",
         "autóipar",
         "akkumulátorgyártás",
-        "gazdasági szerkezet"
+        "gazdasági szerkezet",
+        "ár",
+        "adó"
       ],
       "synonyms": [
         "ipari termelés",
         "feldolgozóipar",
-        "gyáripar"
+        "gyáripar",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2559,12 +3084,20 @@
         "GDP",
         "gazdasági növekedés",
         "recesszió",
-        "felzárkózás"
+        "felzárkózás",
+        "infláció",
+        "ár",
+        "bér"
       ],
       "synonyms": [
         "gazdasági teljesítmény",
         "GDP alakulása",
-        "gazdasági kilátások"
+        "gazdasági kilátások",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2589,12 +3122,20 @@
         "külkereskedelem",
         "export",
         "import",
-        "kereskedelmi mérleg"
+        "kereskedelmi mérleg",
+        "ár",
+        "élelmiszer",
+        "gáz"
       ],
       "synonyms": [
         "export-import",
         "kereskedelem",
-        "külgazdaság"
+        "külgazdaság",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2619,12 +3160,20 @@
         "foglalkoztatás",
         "munkaerőpiac",
         "munkaerőhiány",
-        "aktivitás"
+        "aktivitás",
+        "ár",
+        "adó",
+        "gáz"
       ],
       "synonyms": [
         "foglalkoztatottság",
         "munkavállalás",
-        "alkalmazás"
+        "alkalmazás",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2649,12 +3198,20 @@
         "TB-járulék",
         "társadalombiztosítás",
         "SZOCHO",
-        "adóék"
+        "adóék",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "társadalombiztosítás",
         "járulék",
-        "egészségbiztosítás"
+        "egészségbiztosítás",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2679,13 +3236,21 @@
         "hitelkamat",
         "MNB",
         "lakáshitel",
-        "alapkamat"
+        "alapkamat",
+        "infláció",
+        "ár",
+        "lakás"
       ],
       "synonyms": [
         "banki kamat",
         "hitel",
         "kölcsön kamata",
-        "jelzáloghitel"
+        "jelzáloghitel",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2710,12 +3275,20 @@
         "minimálnyugdíj",
         "nyugdíj",
         "időskori szegénység",
-        "létminimum"
+        "létminimum",
+        "ár",
+        "forint",
+        "bér"
       ],
       "synonyms": [
         "legkisebb nyugdíj",
         "nyugdíjminimum",
-        "alapnyugdíj"
+        "alapnyugdíj",
+        "pénzromlás",
+        "áremelkedés",
+        "drágulás",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2740,12 +3313,19 @@
         "élelmiszerárak",
         "infláció",
         "megélhetés",
-        "háztartási kiadások"
+        "háztartási kiadások",
+        "ár",
+        "drágulás",
+        "forint"
       ],
       "synonyms": [
         "élelmiszer drágulás",
         "kenyér ára",
-        "bevásárlás költsége"
+        "bevásárlás költsége",
+        "pénzromlás",
+        "áremelkedés",
+        "gazdaság",
+        "költségek"
       ],
       "sources": [
         {
@@ -2770,12 +3350,19 @@
         "pedagógushiány",
         "tanárhiány",
         "oktatás",
-        "közoktatás"
+        "közoktatás",
+        "tanár",
+        "pedagógus",
+        "hallgató"
       ],
       "synonyms": [
         "tanárhiány",
         "tanárszükség",
-        "pedagógus-utánpótlás"
+        "pedagógus-utánpótlás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -2800,12 +3387,18 @@
         "tanárbérek",
         "pedagógusbérek",
         "életpályamodell",
-        "béremelés"
+        "béremelés",
+        "tanár",
+        "pedagógus"
       ],
       "synonyms": [
         "tanári fizetés",
         "pedagógus fizetés",
-        "tanári bér"
+        "tanári bér",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -2830,12 +3423,19 @@
         "tanársztrájk",
         "pedagógusmozgalom",
         "PDSZ",
-        "polgári engedetlenség"
+        "polgári engedetlenség",
+        "iskola",
+        "tanár",
+        "pedagógus"
       ],
       "synonyms": [
         "sztrájk",
         "tanári tiltakozás",
-        "pedagógus-sztrájk"
+        "pedagógus-sztrájk",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -2860,12 +3460,19 @@
         "PISA",
         "oktatási teljesítmény",
         "OECD",
-        "kompetenciamérés"
+        "kompetenciamérés",
+        "iskola",
+        "tanár",
+        "diák"
       ],
       "synonyms": [
         "PISA-felmérés",
         "tanulói teljesítmény",
-        "oktatási rangsor"
+        "oktatási rangsor",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -2890,12 +3497,18 @@
         "alapítványi egyetem",
         "modellváltás",
         "felsőoktatás",
-        "egyetemi autonómia"
+        "egyetemi autonómia",
+        "egyetem",
+        "oktatás"
       ],
       "synonyms": [
         "egyetemi alapítvány",
         "modellváltás",
-        "felsőoktatási reform"
+        "felsőoktatási reform",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -2920,12 +3533,18 @@
         "CEU",
         "akadémiai szabadság",
         "felsőoktatás",
-        "lex CEU"
+        "lex CEU",
+        "egyetem",
+        "oktatás"
       ],
       "synonyms": [
         "Közép-európai Egyetem",
         "CEU elköltözése",
-        "Soros egyetem"
+        "Soros egyetem",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -2950,12 +3569,18 @@
         "NAT",
         "Nemzeti Alaptanterv",
         "tanterv",
-        "oktatási tartalom"
+        "oktatási tartalom",
+        "tanár",
+        "oktatás"
       ],
       "synonyms": [
         "alaptanterv",
         "tananyag",
-        "tantervi reform"
+        "tantervi reform",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -2980,12 +3605,19 @@
         "szakképzés",
         "duális képzés",
         "technikum",
-        "MKIK"
+        "MKIK",
+        "iskola",
+        "pedagógus",
+        "diák"
       ],
       "synonyms": [
         "szakiskola",
         "szakmai képzés",
-        "szakmaszerzés"
+        "szakmaszerzés",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3015,7 +3647,11 @@
       "synonyms": [
         "bölcsődei férőhely",
         "óvodai férőhely",
-        "gyermekellátás"
+        "gyermekellátás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3040,12 +3676,18 @@
         "szegregáció",
         "roma tanulók",
         "esélyegyenlőtlenség",
-        "deszegregáció"
+        "deszegregáció",
+        "iskola",
+        "oktatás"
       ],
       "synonyms": [
         "elkülönítés",
         "iskolai szegregáció",
-        "roma oktatás"
+        "roma oktatás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3070,12 +3712,19 @@
         "korai szelekció",
         "gimnázium",
         "esélyegyenlőtlenség",
-        "tehetséggondozás"
+        "tehetséggondozás",
+        "iskola",
+        "diák",
+        "oktatás"
       ],
       "synonyms": [
         "6 osztályos gimnázium",
         "8 osztályos gimnázium",
-        "korai kiválasztás"
+        "korai kiválasztás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3100,12 +3749,19 @@
         "digitalizáció",
         "digitális oktatás",
         "informatika",
-        "online oktatás"
+        "online oktatás",
+        "iskola",
+        "pedagógus",
+        "diák"
       ],
       "synonyms": [
         "digitális iskola",
         "IKT az oktatásban",
-        "e-learning"
+        "e-learning",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3130,12 +3786,19 @@
         "iskolaépületek",
         "infrastruktúra",
         "felújítás",
-        "iskola állapota"
+        "iskola állapota",
+        "iskola",
+        "tanár",
+        "oktatás"
       ],
       "synonyms": [
         "iskolák állapota",
         "iskola felújítás",
-        "oktatási infrastruktúra"
+        "oktatási infrastruktúra",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3160,12 +3823,19 @@
         "egyházi iskola",
         "iskolafenntartó",
         "szelekció",
-        "szegregáció"
+        "szegregáció",
+        "iskola",
+        "diák",
+        "oktatás"
       ],
       "synonyms": [
         "egyházi oktatás",
         "felekezeti iskola",
-        "katolikus iskola"
+        "katolikus iskola",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3190,12 +3860,19 @@
         "oktatási kiadások",
         "GDP",
         "finanszírozás",
-        "költségvetés"
+        "költségvetés",
+        "iskola",
+        "pedagógus",
+        "diák"
       ],
       "synonyms": [
         "oktatás finanszírozása",
         "oktatási költségvetés",
-        "ráfordítás oktatásra"
+        "ráfordítás oktatásra",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3220,12 +3897,19 @@
         "egyetemi rangsor",
         "felsőoktatás",
         "QS ranking",
-        "THE ranking"
+        "THE ranking",
+        "egyetem",
+        "oktatás",
+        "hallgató"
       ],
       "synonyms": [
         "egyetemek rangsorolása",
         "világranglista",
-        "legjobb egyetemek"
+        "legjobb egyetemek",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3250,12 +3934,18 @@
         "hallgatói létszám",
         "felsőoktatás",
         "beiratkozás",
-        "demográfia"
+        "demográfia",
+        "oktatás",
+        "hallgató"
       ],
       "synonyms": [
         "egyetemi hallgatók",
         "felsőoktatási létszám",
-        "diáklétszám"
+        "diáklétszám",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3280,12 +3970,19 @@
         "Stipendium Hungaricum",
         "ösztöndíj",
         "külföldi hallgatók",
-        "felsőoktatás"
+        "felsőoktatás",
+        "egyetem",
+        "oktatás",
+        "hallgató"
       ],
       "synonyms": [
         "SH program",
         "magyar ösztöndíj",
-        "külföldi diákok"
+        "külföldi diákok",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3310,12 +4007,18 @@
         "diákhitel",
         "felsőoktatás",
         "hallgatói hitel",
-        "tandíj"
+        "tandíj",
+        "diák",
+        "hallgató"
       ],
       "synonyms": [
         "hallgatói kölcsön",
         "diákhitel rendszer",
-        "oktatási hitel"
+        "oktatási hitel",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3336,12 +4039,19 @@
         "Erasmus",
         "hallgatói mobilitás",
         "EU",
-        "felsőoktatás"
+        "felsőoktatás",
+        "tanár",
+        "oktatás",
+        "hallgató"
       ],
       "synonyms": [
         "Erasmus program",
         "külföldi tanulmányok",
-        "cserepprogram"
+        "cserepprogram",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3366,12 +4076,19 @@
         "nyelvtudás",
         "nyelvtanulás",
         "nyelvvizsga",
-        "angol nyelv"
+        "angol nyelv",
+        "tanár",
+        "diák",
+        "tanárhiány"
       ],
       "synonyms": [
         "idegennyelv-tudás",
         "nyelvismeret",
-        "nyelvi kompetencia"
+        "nyelvi kompetencia",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3396,12 +4113,19 @@
         "SNI",
         "sajátos nevelési igény",
         "inkluzív oktatás",
-        "gyógypedagógia"
+        "gyógypedagógia",
+        "iskola",
+        "pedagógus",
+        "oktatás"
       ],
       "synonyms": [
         "fogyatékossággal élő tanulók",
         "speciális nevelés",
-        "integrált oktatás"
+        "integrált oktatás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3426,12 +4150,18 @@
         "tehetséggondozás",
         "tanulmányi verseny",
         "OKTV",
-        "diákolimpia"
+        "diákolimpia",
+        "iskola",
+        "diák"
       ],
       "synonyms": [
         "tehetségfejlesztés",
         "tehetséges diákok",
-        "versenyek"
+        "versenyek",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3456,12 +4186,19 @@
         "tankönyv",
         "tankönyvmonopólium",
         "oktatási anyagok",
-        "KELLO"
+        "KELLO",
+        "iskola",
+        "pedagógus",
+        "diák"
       ],
       "synonyms": [
         "tankönyvpiac",
         "iskolai tankönyvek",
-        "tankönyvellátás"
+        "tankönyvellátás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3486,12 +4223,19 @@
         "centralizáció",
         "oktatásirányítás",
         "Klebelsberg Központ",
-        "tankerület"
+        "tankerület",
+        "iskola",
+        "tanár",
+        "pedagógus"
       ],
       "synonyms": [
         "központosítás",
         "állami irányítás",
-        "oktatáspolitika"
+        "oktatáspolitika",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3516,12 +4260,19 @@
         "lemorzsolódás",
         "korai iskolaelhagyás",
         "végzettség nélküliek",
-        "esélyegyenlőtlenség"
+        "esélyegyenlőtlenség",
+        "iskola",
+        "oktatás",
+        "ösztöndíj"
       ],
       "synonyms": [
         "iskolaelhagyás",
         "kimaradás",
-        "korai iskolaelhagyás"
+        "korai iskolaelhagyás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3551,7 +4302,11 @@
       "synonyms": [
         "NEET fiatalok",
         "se nem tanul se nem dolgozik",
-        "ifjúsági inaktivitás"
+        "ifjúsági inaktivitás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3581,7 +4336,11 @@
       "synonyms": [
         "felnőtt oktatás",
         "szakmai továbbképzés",
-        "átképzés"
+        "átképzés",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3606,12 +4365,18 @@
         "K+F",
         "kutatás-fejlesztés",
         "innováció",
-        "NKFIH"
+        "NKFIH",
+        "oktatás",
+        "felsőoktatás"
       ],
       "synonyms": [
         "kutatási kiadások",
         "R&D",
-        "tudományos kutatás"
+        "tudományos kutatás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3636,12 +4401,18 @@
         "brain drain",
         "kutatói elvándorlás",
         "tudósok",
-        "kutatás"
+        "kutatás",
+        "CEU",
+        "ösztöndíj"
       ],
       "synonyms": [
         "agyelszívás",
         "tudós elvándorlás",
-        "kutatók külföldön"
+        "kutatók külföldön",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3671,7 +4442,11 @@
       "synonyms": [
         "Tudományos Akadémia",
         "kutatóintézetek",
-        "ELKH"
+        "ELKH",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3696,12 +4471,19 @@
         "oktatási szabadság",
         "akadémiai szabadság",
         "autonómia",
-        "jogállamiság"
+        "jogállamiság",
+        "tanár",
+        "egyetem",
+        "oktatás"
       ],
       "synonyms": [
         "tanszabadság",
         "akadémiai autonómia",
-        "kutatási szabadság"
+        "kutatási szabadság",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3726,12 +4508,17 @@
         "magániskola",
         "nemzetközi iskola",
         "alternatív pedagógia",
-        "Waldorf"
+        "Waldorf",
+        "iskola"
       ],
       "synonyms": [
         "alapítványi iskola",
         "privát iskola",
-        "international school"
+        "international school",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3756,12 +4543,19 @@
         "inkluzív oktatás",
         "együttnevelés",
         "fogyatékosság",
-        "esélyegyenlőség"
+        "esélyegyenlőség",
+        "iskola",
+        "tanár",
+        "pedagógus"
       ],
       "synonyms": [
         "befogadó oktatás",
         "integrált nevelés",
-        "együttnevelés"
+        "együttnevelés",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3786,13 +4580,20 @@
         "bullying",
         "iskolai erőszak",
         "zaklatás",
-        "cyberbullying"
+        "cyberbullying",
+        "iskola",
+        "pedagógus",
+        "PISA"
       ],
       "synonyms": [
         "iskolai zaklatás",
         "bántalmazás",
         "piszkálás",
-        "online zaklatás"
+        "online zaklatás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3817,12 +4618,19 @@
         "tanári kiégés",
         "túlterheltség",
         "burnout",
-        "pedagógus munkaterhelés"
+        "pedagógus munkaterhelés",
+        "tanár",
+        "pedagógus",
+        "oktatás"
       ],
       "synonyms": [
         "kiégés",
         "tanári leterheltség",
-        "pedagógus burnout"
+        "pedagógus burnout",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3847,12 +4655,19 @@
         "oktatási reform",
         "oktatáspolitika",
         "kompetenciaalapú oktatás",
-        "javaslatok"
+        "javaslatok",
+        "iskola",
+        "tanár",
+        "pedagógus"
       ],
       "synonyms": [
         "iskolareform",
         "oktatásfejlesztés",
-        "oktatási javaslatok"
+        "oktatási javaslatok",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3877,12 +4692,19 @@
         "Finnország",
         "oktatási összehasonlítás",
         "finn modell",
-        "PISA"
+        "PISA",
+        "tanár",
+        "diák",
+        "oktatás"
       ],
       "synonyms": [
         "finn oktatás",
         "finn iskola",
-        "nemzetközi összehasonlítás"
+        "nemzetközi összehasonlítás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3907,12 +4729,19 @@
         "szülő-iskola kapcsolat",
         "szülői bevonás",
         "SZMK",
-        "Kréta"
+        "Kréta",
+        "iskola",
+        "tanár",
+        "oktatás"
       ],
       "synonyms": [
         "szülői munkaközösség",
         "szülő-tanár kapcsolat",
-        "iskolai kommunikáció"
+        "iskolai kommunikáció",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3937,12 +4766,17 @@
         "iskolai étkeztetés",
         "közétkeztetés",
         "gyermekélelmezés",
-        "egészséges táplálkozás"
+        "egészséges táplálkozás",
+        "iskola"
       ],
       "synonyms": [
         "iskolai ebéd",
         "menza",
-        "iskolai konyha"
+        "iskolai konyha",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3966,12 +4800,19 @@
       "tags": [
         "osztálylétszám",
         "oktatási minőség",
-        "tanári munkaterhelés"
+        "tanári munkaterhelés",
+        "iskola",
+        "tanár",
+        "pedagógus"
       ],
       "synonyms": [
         "osztályméret",
         "diáklétszám",
-        "osztálylétszám csökkentés"
+        "osztálylétszám csökkentés",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -3996,12 +4837,19 @@
         "iskolaérettség",
         "beiskolázás",
         "kora gyermekkor",
-        "fejlődéspszichológia"
+        "fejlődéspszichológia",
+        "iskola",
+        "pedagógus",
+        "oktatás"
       ],
       "synonyms": [
         "tankötelesség",
         "iskolakezdés",
-        "hatéves kor"
+        "hatéves kor",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -4026,12 +4874,19 @@
         "házi feladat",
         "tanulási terhelés",
         "diákok",
-        "pedagógiai vita"
+        "pedagógiai vita",
+        "iskola",
+        "tanár",
+        "pedagógus"
       ],
       "synonyms": [
         "lecke",
         "otthoni tanulás",
-        "házi feladat mennyisége"
+        "házi feladat mennyisége",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -4056,12 +4911,19 @@
         "esélyegyenlőtlenség",
         "oktatási egyenlőtlenség",
         "szocioökonómiai háttér",
-        "PISA"
+        "PISA",
+        "iskola",
+        "tanár",
+        "diák"
       ],
       "synonyms": [
         "oktatási esélyek",
         "társadalmi mobilitás",
-        "hátrányos helyzet az oktatásban"
+        "hátrányos helyzet az oktatásban",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -4086,12 +4948,19 @@
         "társadalmi mobilitás",
         "esélyegyenlőség",
         "oktatás és jövedelem",
-        "OECD"
+        "OECD",
+        "iskola",
+        "oktatás",
+        "felsőoktatás"
       ],
       "synonyms": [
         "felfelé mobilitás",
         "társadalmi felemelkedés",
-        "generációs mobilitás"
+        "generációs mobilitás",
+        "képzés",
+        "tanulás",
+        "tudás",
+        "oktatási rendszer"
       ],
       "sources": [
         {
@@ -4116,12 +4985,17 @@
         "orvoshiány",
         "elvándorlás",
         "munkaerőhiány",
-        "egészségügyi rendszer"
+        "egészségügyi rendszer",
+        "orvos",
+        "egészségügy"
       ],
       "synonyms": [
         "doktorhiány",
         "orvos kevés",
-        "nincs elég orvos"
+        "nincs elég orvos",
+        "ellátás",
+        "gyógyítás",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4146,12 +5020,19 @@
         "ápolóhiány",
         "szakdolgozók",
         "egészségügyi munkaerő",
-        "bérezés"
+        "bérezés",
+        "orvos",
+        "egészségügy",
+        "ápoló"
       ],
       "synonyms": [
         "nővérhiány",
         "ápoló kevés",
-        "egészségügyi szakdolgozó hiány"
+        "egészségügyi szakdolgozó hiány",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4177,12 +5058,19 @@
         "műtét",
         "várakozási idő",
         "NEAK",
-        "kórház"
+        "kórház",
+        "orvos",
+        "egészségügy",
+        "várolista"
       ],
       "synonyms": [
         "kórházi várakozás",
         "műtéti várólista",
-        "mikor kerülök sorra"
+        "mikor kerülök sorra",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4207,13 +5095,20 @@
         "sürgősségi ellátás",
         "SBO",
         "kórház",
-        "túlterheltség"
+        "túlterheltség",
+        "orvos",
+        "beteg",
+        "egészségügy"
       ],
       "synonyms": [
         "sürgősségi osztály",
         "SBO",
         "mentő",
-        "sürgős ellátás"
+        "sürgős ellátás",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4239,12 +5134,19 @@
         "alapellátás",
         "praxis",
         "vidék",
-        "orvoshiány"
+        "orvoshiány",
+        "kórház",
+        "orvos",
+        "beteg"
       ],
       "synonyms": [
         "családorvos",
         "körzeti orvos",
-        "háziorvosi praxis"
+        "háziorvosi praxis",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4269,12 +5171,18 @@
         "kórházbezárás",
         "összevonás",
         "ágyszámcsökkentés",
-        "vidéki ellátás"
+        "vidéki ellátás",
+        "kórház",
+        "beteg"
       ],
       "synonyms": [
         "kórházi reform",
         "kórház megszűnés",
-        "kórházi átalakítás"
+        "kórházi átalakítás",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4299,12 +5207,18 @@
         "kórházi adósság",
         "finanszírozás",
         "NEAK",
-        "alulfinanszírozás"
+        "alulfinanszírozás",
+        "kórház",
+        "gyógyszer"
       ],
       "synonyms": [
         "kórház tartozás",
         "egészségügyi adósság",
-        "kórházi pénzhiány"
+        "kórházi pénzhiány",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4329,12 +5243,18 @@
         "béremelés",
         "orvosi bér",
         "egészségügyi dolgozók",
-        "hálapénz"
+        "hálapénz",
+        "orvos",
+        "egészségügy"
       ],
       "synonyms": [
         "orvos fizetésemelés",
         "egészségügyi fizetés",
-        "orvosi bér 2021"
+        "orvosi bér 2021",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4359,12 +5279,17 @@
         "orvos elvándorlás",
         "agyelszívás",
         "külföldi munkavállalás",
-        "bérkülönbség"
+        "bérkülönbség",
+        "orvos"
       ],
       "synonyms": [
         "orvosok külföldön",
         "orvos emigráció",
-        "brain drain egészségügy"
+        "brain drain egészségügy",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4389,12 +5314,19 @@
         "hálapénz",
         "paraszolvencia",
         "egészségügyi reform",
-        "korrupció"
+        "korrupció",
+        "orvos",
+        "beteg",
+        "egészségügy"
       ],
       "synonyms": [
         "paraszolvencia",
         "hálapénz tilalom",
-        "orvosnak pénz"
+        "orvosnak pénz",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4420,13 +5352,20 @@
         "finanszírozás",
         "HBCs",
         "egészségbiztosítás",
-        "költségvetés"
+        "költségvetés",
+        "kórház",
+        "beteg",
+        "egészségügy"
       ],
       "synonyms": [
         "OEP",
         "egészségbiztosító",
         "TB finanszírozás",
-        "NEAK költségvetés"
+        "NEAK költségvetés",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4451,12 +5390,17 @@
         "egészségügyi kiadás",
         "GDP",
         "EU összehasonlítás",
-        "finanszírozás"
+        "finanszírozás",
+        "egészségügy"
       ],
       "synonyms": [
         "egészségügyi költés",
         "mennyit költ Magyarország egészségügyre",
-        "egészségügy pénz"
+        "egészségügy pénz",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4482,12 +5426,19 @@
         "gyógyszertámogatás",
         "NEAK",
         "co-payment",
-        "gyógyszerhiány"
+        "gyógyszerhiány",
+        "beteg",
+        "gyógyszer",
+        "egészségbiztosítás"
       ],
       "synonyms": [
         "gyógyszer ár",
         "gyógyszer támogatás",
-        "receptköteles gyógyszer ára"
+        "receptköteles gyógyszer ára",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4513,12 +5464,19 @@
         "társadalombiztosítás",
         "fenntarthatóság",
         "demográfia",
-        "reform"
+        "reform",
+        "beteg",
+        "egészségügy",
+        "egészségbiztosítás"
       ],
       "synonyms": [
         "TB rendszer",
         "egészségbiztosítás fenntarthatósága",
-        "társadalombiztosítás jövője"
+        "társadalombiztosítás jövője",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4543,13 +5501,20 @@
         "magánegészségügy",
         "magánklinika",
         "egyenlőtlenség",
-        "egészségbiztosítás"
+        "egészségbiztosítás",
+        "beteg",
+        "egészségügy",
+        "várolista"
       ],
       "synonyms": [
         "privát egészségügy",
         "magán orvos",
         "magánkórház",
-        "fizetős ellátás"
+        "fizetős ellátás",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4575,12 +5540,18 @@
         "pszichiátria",
         "depresszió",
         "öngyilkosság",
-        "pszichológia"
+        "pszichológia",
+        "egészségügy",
+        "járvány"
       ],
       "synonyms": [
         "lelki egészség",
         "pszichiátriai ellátás",
-        "depresszió kezelés"
+        "depresszió kezelés",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4605,12 +5576,18 @@
         "pszichiátria",
         "közösségi ellátás",
         "gyermekpszichiátria",
-        "intézményi ellátás"
+        "intézményi ellátás",
+        "kórház",
+        "beteg"
       ],
       "synonyms": [
         "elmegyógyászat",
         "pszichiátriai osztály",
-        "pszichiátriai beteg"
+        "pszichiátriai beteg",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4635,12 +5612,17 @@
         "védőnő",
         "anyavédelem",
         "csecsemőgondozás",
-        "prevenció"
+        "prevenció",
+        "egészségügy"
       ],
       "synonyms": [
         "védőnői szolgálat",
         "anya-gyermek védelem",
-        "csecsemő gondozás"
+        "csecsemő gondozás",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4666,12 +5648,17 @@
         "mammográfia",
         "méhnyakszűrés",
         "vastagbélszűrés",
-        "prevenció"
+        "prevenció",
+        "egészségügy"
       ],
       "synonyms": [
         "rákszűrés",
         "szűrővizsgálat",
-        "emlőszűrés"
+        "emlőszűrés",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4697,13 +5684,19 @@
         "vakcina",
         "oltásellenesség",
         "átoltottság",
-        "COVID"
+        "COVID",
+        "egészségügy",
+        "járvány"
       ],
       "synonyms": [
         "oltási program",
         "vakcináció",
         "oltásellenesek",
-        "oltás kell"
+        "oltás kell",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4729,12 +5722,17 @@
         "járvány",
         "halálozás",
         "járványkészültség",
-        "telemedicina"
+        "telemedicina",
+        "egészségügy"
       ],
       "synonyms": [
         "koronavírus tanulság",
         "COVID egészségügy",
-        "járvány hatása"
+        "járvány hatása",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4759,12 +5757,19 @@
         "vidéki ellátás",
         "egészségügyi egyenlőtlenség",
         "területi különbségek",
-        "háziorvos"
+        "háziorvos",
+        "kórház",
+        "orvos",
+        "beteg"
       ],
       "synonyms": [
         "falusi egészségügy",
         "vidéki orvos",
-        "vidéki kórház"
+        "vidéki kórház",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4789,13 +5794,20 @@
         "mentőszolgálat",
         "OMSZ",
         "sürgősségi ellátás",
-        "kiérkezési idő"
+        "kiérkezési idő",
+        "beteg",
+        "ápoló",
+        "sürgősségi"
       ],
       "synonyms": [
         "mentő",
         "mentőautó",
         "mentős",
-        "OMSZ"
+        "OMSZ",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4820,12 +5832,18 @@
         "fogászat",
         "fogászati ellátás",
         "fogászati turizmus",
-        "TB támogatás"
+        "TB támogatás",
+        "orvos",
+        "beteg"
       ],
       "synonyms": [
         "fogorvos",
         "fogászati probléma",
-        "fogászati ellátás hiánya"
+        "fogászati ellátás hiánya",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4850,13 +5868,20 @@
         "rehabilitáció",
         "fizikoterápia",
         "gyógytorna",
-        "felépülés"
+        "felépülés",
+        "kórház",
+        "orvos",
+        "beteg"
       ],
       "synonyms": [
         "rehabilitáció",
         "gyógytorna",
         "fizikoterápia",
-        "mozgásterápia"
+        "mozgásterápia",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4882,13 +5907,19 @@
         "szív-érrendszeri",
         "cukorbetegség",
         "prevenció",
-        "halálozás"
+        "halálozás",
+        "beteg",
+        "egészségügy"
       ],
       "synonyms": [
         "krónikus betegségek",
         "szívbetegség",
         "cukorbetegség",
-        "civilizációs betegségek"
+        "civilizációs betegségek",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4915,13 +5946,19 @@
         "onkológia",
         "tüdőrák",
         "szűrés",
-        "halálozás"
+        "halálozás",
+        "beteg",
+        "gyógyszer"
       ],
       "synonyms": [
         "rákelőfordulás",
         "daganatos halálozás",
         "rákstatisztika",
-        "onkológiai ellátás"
+        "onkológiai ellátás",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4946,12 +5983,17 @@
         "csecsemőhalandóság",
         "koraszülöttség",
         "perinatális ellátás",
-        "védőnő"
+        "védőnő",
+        "egészségügy"
       ],
       "synonyms": [
         "csecsemőhalálozás",
         "újszülött halálozás",
-        "babák halálozása"
+        "babák halálozása",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -4976,12 +6018,19 @@
         "várható élettartam",
         "halálozás",
         "EU összehasonlítás",
-        "életmód"
+        "életmód",
+        "beteg",
+        "egészségügy",
+        "járvány"
       ],
       "synonyms": [
         "élettartam",
         "meddig élnek a magyarok",
-        "átlagéletkor"
+        "átlagéletkor",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5006,12 +6055,18 @@
         "egyenlőtlenség",
         "területi különbségek",
         "roma egészség",
-        "szociális hátrány"
+        "szociális hátrány",
+        "beteg",
+        "egészségügy"
       ],
       "synonyms": [
         "egészségügyi különbségek",
         "egészségügy egyenlőtlenség",
-        "szegénység és egészség"
+        "szegénység és egészség",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5036,12 +6091,18 @@
         "prevenció",
         "megelőzés",
         "népegészségügy",
-        "egészségügyi kiadás"
+        "egészségügyi kiadás",
+        "beteg",
+        "egészségügy"
       ],
       "synonyms": [
         "betegségmegelőzés",
         "megelőzés fontossága",
-        "prevenciós kiadás"
+        "prevenciós kiadás",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5067,13 +6128,18 @@
         "alkohol",
         "egészségkárosítás",
         "tüdőrák",
-        "prevenció"
+        "prevenció",
+        "beteg"
       ],
       "synonyms": [
         "cigaretta",
         "alkoholizmus",
         "dohányzás statisztika",
-        "ivás"
+        "ivás",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5099,13 +6165,19 @@
         "obezitás",
         "túlsúly",
         "táplálkozás",
-        "NETA"
+        "NETA",
+        "beteg",
+        "egészségügy"
       ],
       "synonyms": [
         "kövérség",
         "túlsúly",
         "elhízás Magyarországon",
-        "BMI"
+        "BMI",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5130,12 +6202,19 @@
         "gyermekgyógyászat",
         "gyermekorvos",
         "gyermekellátás",
-        "gyermekosztály"
+        "gyermekosztály",
+        "kórház",
+        "orvos",
+        "egészségügy"
       ],
       "synonyms": [
         "gyerekorvos",
         "gyermekgyógyász",
-        "gyerek egészségügy"
+        "gyerek egészségügy",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5160,13 +6239,18 @@
         "szülészet",
         "császármetszés",
         "szülés",
-        "perinatális ellátás"
+        "perinatális ellátás",
+        "orvos"
       ],
       "synonyms": [
         "szülés",
         "szülőszoba",
         "kismama ellátás",
-        "szülészeti osztály"
+        "szülészeti osztály",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5190,12 +6274,19 @@
       "tags": [
         "EU összehasonlítás",
         "megelőzhető halálozás",
-        "egészségügyi mutatók"
+        "egészségügyi mutatók",
+        "beteg",
+        "egészségügy",
+        "sürgősségi"
       ],
       "synonyms": [
         "EU egészségügy rangsor",
         "Magyarország EU egészségügy",
-        "egészségügyi összehasonlítás"
+        "egészségügyi összehasonlítás",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5221,12 +6312,19 @@
         "digitalizáció",
         "EESZT",
         "telemedicina",
-        "e-recept"
+        "e-recept",
+        "kórház",
+        "orvos",
+        "beteg"
       ],
       "synonyms": [
         "digitális egészségügy",
         "elektronikus egészségügy",
-        "telemedicina"
+        "telemedicina",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5251,12 +6349,18 @@
         "gyógyszertár",
         "patika",
         "gyógyszerhiány",
-        "gyógyszerész"
+        "gyógyszerész",
+        "egészségügy",
+        "gyógyszer"
       ],
       "synonyms": [
         "patika",
         "gyógyszertári ellátás",
-        "gyógyszer hozzáférés"
+        "gyógyszer hozzáférés",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5281,12 +6385,18 @@
         "hospice",
         "palliatív ellátás",
         "életvégi ellátás",
-        "NEAK"
+        "NEAK",
+        "orvos",
+        "beteg"
       ],
       "synonyms": [
         "hospice ellátás",
         "palliatív gondozás",
-        "haldokló ellátás"
+        "haldokló ellátás",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5312,12 +6422,18 @@
         "asztma",
         "parlagfű",
         "pollen",
-        "légúti betegség"
+        "légúti betegség",
+        "beteg",
+        "járvány"
       ],
       "synonyms": [
         "allergia Magyarország",
         "asztma kezelés",
-        "parlagfű allergia"
+        "parlagfű allergia",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5343,12 +6459,19 @@
         "AMR",
         "MRSA",
         "kórházi fertőzés",
-        "antibiotikum"
+        "antibiotikum",
+        "kórház",
+        "beteg",
+        "egészségügy"
       ],
       "synonyms": [
         "antibiotikum rezisztencia",
         "szuperbaktérium",
-        "rezisztens baktérium"
+        "rezisztens baktérium",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5373,12 +6496,19 @@
         "egészségügyi reform",
         "alapellátás",
         "csoportpraxis",
-        "strukturális reform"
+        "strukturális reform",
+        "kórház",
+        "orvos",
+        "egészségügy"
       ],
       "synonyms": [
         "egészségügy átalakítás",
         "egészségügyi reform terv",
-        "kórházi reform"
+        "kórházi reform",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5403,12 +6533,19 @@
         "kórházi fertőzés",
         "nozokomiális",
         "infekciókontroll",
-        "kézhigiénia"
+        "kézhigiénia",
+        "kórház",
+        "beteg",
+        "járvány"
       ],
       "synonyms": [
         "kórházi fertőzés",
         "nozokomiális fertőzés",
-        "kórházban kapott fertőzés"
+        "kórházban kapott fertőzés",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5433,12 +6570,19 @@
         "kiégés",
         "burnout",
         "egészségügyi dolgozók",
-        "munkahelyi stressz"
+        "munkahelyi stressz",
+        "kórház",
+        "orvos",
+        "beteg"
       ],
       "synonyms": [
         "orvos kiégés",
         "ápoló kiégés",
-        "burnout egészségügyben"
+        "burnout egészségügyben",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5464,12 +6608,18 @@
         "kórházi épületek",
         "műszerpark",
         "EU-s források",
-        "beruházás"
+        "beruházás",
+        "kórház",
+        "egészségügy"
       ],
       "synonyms": [
         "kórházi infrastruktúra",
         "egészségügyi felszereltség",
-        "kórház állapota"
+        "kórház állapota",
+        "ellátás",
+        "gyógyítás",
+        "egészségügyi rendszer",
+        "betegellátás"
       ],
       "sources": [
         {
@@ -5494,13 +6644,21 @@
         "Transparency International",
         "CPI",
         "korrupciós index",
-        "EU összehasonlítás"
+        "EU összehasonlítás",
+        "korrupció",
+        "közbeszerzés",
+        "közpénz"
       ],
       "synonyms": [
         "korrupciós index",
         "TI index",
         "korrupciós rangsor",
-        "Transparency International"
+        "Transparency International",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5526,13 +6684,21 @@
         "kondicionalitás",
         "kohéziós alap",
         "befagyasztás",
-        "jogállamiság"
+        "jogállamiság",
+        "korrupció",
+        "közbeszerzés",
+        "ÁSZ"
       ],
       "synonyms": [
         "EU pénz befagyasztás",
         "EU-s források",
         "kohéziós pénzek",
-        "miért nem kapja meg Magyarország az EU pénzeket"
+        "miért nem kapja meg Magyarország az EU pénzeket",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5563,7 +6729,12 @@
       "synonyms": [
         "OLAF vizsgálat",
         "EU csalás elleni hivatal",
-        "OLAF Magyarország"
+        "OLAF Magyarország",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5594,7 +6765,12 @@
       "synonyms": [
         "közbeszerzési csalás",
         "közbeszerzési visszaélés",
-        "tendermanipuláció"
+        "tendermanipuláció",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5620,12 +6796,20 @@
         "vagyongyarapodás",
         "NER",
         "közbeszerzés",
-        "piactorzítás"
+        "piactorzítás",
+        "korrupció",
+        "oligarcha",
+        "közpénz"
       ],
       "synonyms": [
         "oligarchia",
         "NER gazdagok",
-        "kormányközeli vagyonosodás"
+        "kormányközeli vagyonosodás",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5651,12 +6835,18 @@
         "oligarcha",
         "vagyongyarapodás",
         "közbeszerzés",
-        "NER"
+        "NER",
+        "Mészáros"
       ],
       "synonyms": [
         "Mészáros vagyon",
         "Felcsút",
-        "Mészáros üzletek"
+        "Mészáros üzletek",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5682,12 +6872,18 @@
         "BDPST Group",
         "Elios",
         "összeférhetetlenség",
-        "ingatlan"
+        "ingatlan",
+        "ÁSZ"
       ],
       "synonyms": [
         "Tiborcz",
         "Orbán veje",
-        "BDPST"
+        "BDPST",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5713,13 +6909,20 @@
         "propaganda",
         "kormányzati kommunikáció",
         "szankció",
-        "kampány"
+        "kampány",
+        "korrupció",
+        "közpénz"
       ],
       "synonyms": [
         "Rogán",
         "kormánypropaganda",
         "nemzeti konzultáció",
-        "plakátkampány"
+        "plakátkampány",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5746,12 +6949,19 @@
         "közvilágítás",
         "OLAF",
         "Tiborcz",
-        "EU-pénzek"
+        "EU-pénzek",
+        "korrupció",
+        "közbeszerzés"
       ],
       "synonyms": [
         "Elios ügy",
         "LED botrány",
-        "közvilágítási botrány"
+        "közvilágítási botrány",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5777,12 +6987,19 @@
         "audit",
         "Integritás Hatóság",
         "OLAF",
-        "közbeszerzés"
+        "közbeszerzés",
+        "ÁSZ",
+        "átláthatóság"
       ],
       "synonyms": [
         "EU pénzek felhasználása",
         "EU-s források ellenőrzése",
-        "hogyan ellenőrzik az EU pénzeket"
+        "hogyan ellenőrzik az EU pénzeket",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5808,12 +7025,20 @@
         "atomerőmű",
         "titkosítás",
         "Roszatom",
-        "közpénz"
+        "közpénz",
+        "NER",
+        "ÁSZ",
+        "átláthatóság"
       ],
       "synonyms": [
         "Paks bővítés",
         "Paks II szerződés",
-        "Paks atomerőmű"
+        "Paks atomerőmű",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5838,12 +7063,19 @@
         "önkormányzat",
         "helyi korrupció",
         "közbeszerzés",
-        "átláthatóság"
+        "átláthatóság",
+        "korrupció",
+        "ÁSZ"
       ],
       "synonyms": [
         "önkormányzati korrupció",
         "helyi visszaélés",
-        "polgármester korrupció"
+        "polgármester korrupció",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5874,7 +7106,12 @@
       "synonyms": [
         "agrár korrupció",
         "földtámogatás",
-        "mezőgazdasági támogatás visszaélés"
+        "mezőgazdasági támogatás visszaélés",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5906,7 +7143,12 @@
         "KESMA alapítvány",
         "médiavásárlás",
         "kormánybarát média",
-        "médiabirodalom"
+        "médiabirodalom",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5932,12 +7174,19 @@
         "vagyonkezelő alapítvány",
         "felsőoktatás",
         "kuratórium",
-        "közpénz"
+        "közpénz",
+        "ÁSZ",
+        "átláthatóság"
       ],
       "synonyms": [
         "egyetem alapítvány",
         "modellváltás egyetem",
-        "alapítványi egyetem"
+        "alapítványi egyetem",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5963,12 +7212,20 @@
         "EU mechanizmus",
         "jogállamiság",
         "kohéziós alap",
-        "szankció"
+        "szankció",
+        "korrupció",
+        "közbeszerzés",
+        "NER"
       ],
       "synonyms": [
         "kondicionalitási mechanizmus",
         "EU szankció Magyarország",
-        "EU feltételrendszer"
+        "EU feltételrendszer",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -5994,12 +7251,19 @@
         "7. cikk",
         "EP",
         "korrupcióellenes küzdelem",
-        "EU"
+        "EU",
+        "korrupció",
+        "ÁSZ"
       ],
       "synonyms": [
         "jogállamisági eljárás",
         "7-es cikk",
-        "jogállamiság és korrupció"
+        "jogállamiság és korrupció",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6025,12 +7289,20 @@
         "Polt Péter",
         "függetlenség",
         "EPPO",
-        "büntetlenség"
+        "büntetlenség",
+        "korrupció",
+        "közbeszerzés",
+        "ÁSZ"
       ],
       "synonyms": [
         "főügyész",
         "ügyészség függetlensége",
-        "Polt Péter legfőbb ügyész"
+        "Polt Péter legfőbb ügyész",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6055,12 +7327,18 @@
         "Integritás Hatóság",
         "korrupcióellenes",
         "EU feltétel",
-        "Biró Ferenc"
+        "Biró Ferenc",
+        "korrupció"
       ],
       "synonyms": [
         "Integritás Hatóság",
         "korrupcióellenes hatóság",
-        "IH"
+        "IH",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6091,7 +7369,12 @@
       "synonyms": [
         "Számvevőszék",
         "ÁSZ pártatlanság",
-        "ÁSZ vizsgálat"
+        "ÁSZ vizsgálat",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6117,12 +7400,18 @@
         "szabályozás",
         "átláthatóság",
         "érdekérvényesítés",
-        "döntéshozatal"
+        "döntéshozatal",
+        "korrupció"
       ],
       "synonyms": [
         "lobbiszabályozás",
         "lobbista",
-        "lobbi Magyarország"
+        "lobbi Magyarország",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6148,12 +7437,18 @@
         "átláthatóság",
         "politikus vagyon",
         "GRECO",
-        "ellenőrzés"
+        "ellenőrzés",
+        "korrupció"
       ],
       "synonyms": [
         "vagyonbevallás",
         "politikus vagyona",
-        "vagyonnyilatkozat hitelesség"
+        "vagyonnyilatkozat hitelesség",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6179,12 +7474,19 @@
         "politikus",
         "üzleti érdekeltség",
         "GRECO",
-        "stróman"
+        "stróman",
+        "korrupció",
+        "Mészáros"
       ],
       "synonyms": [
         "összeférhetetlenség politika",
         "politikus üzlet",
-        "érdekütközés"
+        "érdekütközés",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6209,12 +7511,19 @@
         "whistleblower",
         "visszaélés-bejelentő",
         "bejelentővédelem",
-        "EU irányelv"
+        "EU irányelv",
+        "korrupció",
+        "ÁSZ"
       ],
       "synonyms": [
         "whistleblower védelem",
         "bejelentő védelem",
-        "visszaélés bejelentés"
+        "visszaélés bejelentés",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6240,12 +7549,20 @@
         "adóparadicsom",
         "Panama Papers",
         "Pandora Papers",
-        "pénzmosás"
+        "pénzmosás",
+        "korrupció",
+        "közpénz",
+        "NER"
       ],
       "synonyms": [
         "offshore cégek",
         "adóparadicsomok",
-        "offshore Magyarország"
+        "offshore Magyarország",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6271,13 +7588,19 @@
         "adócsalás",
         "áfa-rés",
         "feketegazdaság",
-        "NAV"
+        "NAV",
+        "ÁSZ"
       ],
       "synonyms": [
         "adóelkerülés",
         "adócsalás",
         "feketegazdaság",
-        "áfa csalás"
+        "áfa csalás",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6303,12 +7626,19 @@
         "átláthatóság",
         "közérdekű adat",
         "titkosítás",
-        "nyílt adat"
+        "nyílt adat",
+        "közbeszerzés",
+        "ÁSZ"
       ],
       "synonyms": [
         "közpénz átláthatóság",
         "közpénz felhasználás",
-        "közpénz ellenőrzés"
+        "közpénz ellenőrzés",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6339,7 +7669,12 @@
       "synonyms": [
         "kormánypropaganda költsége",
         "nemzeti konzultáció költség",
-        "plakátkampány ára"
+        "plakátkampány ára",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6369,7 +7704,12 @@
       "synonyms": [
         "állami tender",
         "állami projekt",
-        "állami megbízás"
+        "állami megbízás",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6395,12 +7735,19 @@
         "sportfinanszírozás",
         "társasági adó",
         "labdarúgás",
-        "közpénz"
+        "közpénz",
+        "ÁSZ",
+        "átláthatóság"
       ],
       "synonyms": [
         "TAO rendszer",
         "sport TAO",
-        "sportfinanszírozás korrupció"
+        "sportfinanszírozás korrupció",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6426,12 +7773,20 @@
         "sportlétesítmény",
         "közpénz",
         "Puskás Aréna",
-        "Felcsút"
+        "Felcsút",
+        "korrupció",
+        "stadion",
+        "ÁSZ"
       ],
       "synonyms": [
         "stadion építés költség",
         "stadion pénz",
-        "Puskás Aréna ára"
+        "Puskás Aréna ára",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6456,12 +7811,20 @@
         "NER",
         "Nemzeti Együttműködés Rendszere",
         "hatalomkoncentráció",
-        "hibrid rezsim"
+        "hibrid rezsim",
+        "közbeszerzés",
+        "közpénz",
+        "ÁSZ"
       ],
       "synonyms": [
         "NER rendszer",
         "Nemzeti Együttműködés",
-        "NER Magyarország"
+        "NER Magyarország",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6486,12 +7849,19 @@
         "közérdekű adat",
         "adatigénylés",
         "átláthatóság",
-        "információszabadság"
+        "információszabadság",
+        "közpénz",
+        "ÁSZ"
       ],
       "synonyms": [
         "adatigénylés",
         "közérdekű adatok",
-        "információszabadság"
+        "információszabadság",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6516,12 +7886,20 @@
         "korrupcióellenes stratégia",
         "GRECO",
         "EU feltétel",
-        "akcióterv"
+        "akcióterv",
+        "korrupció",
+        "közbeszerzés",
+        "vagyonnyilatkozat"
       ],
       "synonyms": [
         "korrupció elleni stratégia",
         "korrupcióellenes terv",
-        "antikorrupció"
+        "antikorrupció",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6547,12 +7925,20 @@
         "Átlátszó",
         "K-Monitor",
         "Transparency International",
-        "watchdog"
+        "watchdog",
+        "korrupció",
+        "közbeszerzés",
+        "közpénz"
       ],
       "synonyms": [
         "civil szervezetek korrupció",
         "antikorrupciós szervezetek",
-        "watchdog szervezetek"
+        "watchdog szervezetek",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6578,12 +7964,20 @@
         "sajtószabadság",
         "Pegasus",
         "média",
-        "RSF"
+        "RSF",
+        "korrupció",
+        "NER",
+        "ÁSZ"
       ],
       "synonyms": [
         "oknyomozó újságíró",
         "tényfeltáró újságírás",
-        "sajtószabadság Magyarország"
+        "sajtószabadság Magyarország",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6609,12 +8003,18 @@
         "korrupciós index",
         "Freedom House",
         "V-Dem",
-        "WGI"
+        "WGI",
+        "korrupció"
       ],
       "synonyms": [
         "korrupciós rangsor",
         "Magyarország korrupció helyzet",
-        "demokratikus visszaesés"
+        "demokratikus visszaesés",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6640,12 +8040,19 @@
         "visegrádi négyek",
         "regionális összehasonlítás",
         "CPI",
-        "Közép-Európa"
+        "Közép-Európa",
+        "korrupció",
+        "közbeszerzés"
       ],
       "synonyms": [
         "V4 korrupció",
         "visegrádi országok",
-        "regionális összehasonlítás korrupció"
+        "regionális összehasonlítás korrupció",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6671,12 +8078,20 @@
         "kenőpénz",
         "bürokrácia",
         "state capture",
-        "e-ügyintézés"
+        "e-ügyintézés",
+        "korrupció",
+        "közbeszerzés",
+        "ÁSZ"
       ],
       "synonyms": [
         "hivatali korrupció",
         "bürokratikus korrupció",
-        "közigazgatási visszaélés"
+        "közigazgatási visszaélés",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6702,12 +8117,18 @@
         "rendőrségi korrupció",
         "NVSZ",
         "vesztegetés",
-        "belső ellenőrzés"
+        "belső ellenőrzés",
+        "korrupció"
       ],
       "synonyms": [
         "rendőri korrupció",
         "rendőrség visszaélés",
-        "rendőr korrupció"
+        "rendőr korrupció",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6732,12 +8153,19 @@
         "hálapénz",
         "paraszolvencia",
         "egészségügyi korrupció",
-        "egyenlőtlenség"
+        "egyenlőtlenség",
+        "korrupció",
+        "ÁSZ"
       ],
       "synonyms": [
         "hálapénz korrupció",
         "orvosnak fizetés",
-        "paraszolvencia tilalom"
+        "paraszolvencia tilalom",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6762,12 +8190,20 @@
         "oktatási korrupció",
         "tankönyvpiac",
         "egyetemi alapítvány",
-        "felsőoktatás"
+        "felsőoktatás",
+        "korrupció",
+        "közbeszerzés",
+        "átláthatóság"
       ],
       "synonyms": [
         "iskola korrupció",
         "oktatás korrupció",
-        "egyetemi korrupció"
+        "egyetemi korrupció",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6798,7 +8234,12 @@
       "synonyms": [
         "bírósági függetlenség",
         "igazságügy függetlensége",
-        "bírói kar"
+        "bírói kar",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6824,12 +8265,20 @@
         "köz-magán partnerség",
         "autópálya",
         "koncesszió",
-        "közpénz"
+        "közpénz",
+        "korrupció",
+        "NER",
+        "ÁSZ"
       ],
       "synonyms": [
         "PPP projekt",
         "köz-magán partnerség",
-        "koncessziós szerződés"
+        "koncessziós szerződés",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -6854,12 +8303,20 @@
         "közbizalom",
         "intézményi bizalom",
         "Eurobarometer",
-        "társadalmi hatás"
+        "társadalmi hatás",
+        "korrupció",
+        "ÁSZ",
+        "átláthatóság"
       ],
       "synonyms": [
         "korrupció hatása",
         "bizalom a kormányban",
-        "korrupció és társadalom"
+        "korrupció és társadalom",
+        "mutyizás",
+        "haverok",
+        "rendszer",
+        "visszaélés",
+        "sikkasztás"
       ],
       "sources": [
         {
@@ -8125,13 +9582,20 @@
         "RSF",
         "médiaindex",
         "KESMA",
-        "médiapluralizmus"
+        "médiapluralizmus",
+        "szabadság",
+        "ellenzék",
+        "kormány"
       ],
       "synonyms": [
         "sajtószabadság index",
         "médiarangsor",
         "sajtó helyzete",
-        "médiaszabadság"
+        "médiaszabadság",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8157,13 +9621,19 @@
         "KESMA",
         "közmédia",
         "Médiatanács",
-        "Klubrádió"
+        "Klubrádió",
+        "választás",
+        "kormány"
       ],
       "synonyms": [
         "médiahelyzet",
         "médiaszabadság",
         "sajtó sokszínűség",
-        "médiakoncentráció"
+        "médiakoncentráció",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8189,13 +9659,20 @@
         "részben szabad",
         "hibrid rezsim",
         "demokrácia mérés",
-        "polgári szabadságok"
+        "polgári szabadságok",
+        "demokrácia",
+        "választás",
+        "szabadság"
       ],
       "synonyms": [
         "Freedom House besorolás",
         "szabad ország index",
         "demokrácia rangsor",
-        "szabadság értékelés"
+        "szabadság értékelés",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8217,13 +9694,20 @@
         "ODIHR",
         "választási megfigyelés",
         "kampány",
-        "közmédia"
+        "közmédia",
+        "választás",
+        "szavazás",
+        "emberi jogok"
       ],
       "synonyms": [
         "választási megfigyelés",
         "OSCE jelentés",
         "ODIHR Magyarország",
-        "választás értékelés"
+        "választás értékelés",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8245,13 +9729,19 @@
         "egyéni kerület",
         "listás mandátum",
         "többségi rendszer",
-        "küszöb"
+        "küszöb",
+        "választás",
+        "Fidesz"
       ],
       "synonyms": [
         "magyar választás",
         "szavazási rendszer",
         "mandátum elosztás",
-        "választási szabályok"
+        "választási szabályok",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8273,13 +9763,20 @@
         "többségi elv",
         "választókerület",
         "ellenzéki összefogás",
-        "mandátum"
+        "mandátum",
+        "választás",
+        "ellenzék",
+        "Fidesz"
       ],
       "synonyms": [
         "egyfordulós szavazás",
         "FPTP rendszer",
         "egyszerű többség",
-        "egykörös választás"
+        "egykörös választás",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8301,13 +9798,20 @@
         "választókerületek",
         "kerületi határok",
         "választási rendszer",
-        "manipuláció"
+        "manipuláció",
+        "választás",
+        "ellenzék",
+        "Fidesz"
       ],
       "synonyms": [
         "kerülethatárok",
         "választókerületi manipuláció",
         "kerület átrajzolás",
-        "gerrymandering Magyarország"
+        "gerrymandering Magyarország",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8333,13 +9837,20 @@
         "határon túli magyarok",
         "kettős állampolgárság",
         "választójog",
-        "pártlista"
+        "pártlista",
+        "választás",
+        "szavazás",
+        "ellenzék"
       ],
       "synonyms": [
         "határon túli szavazás",
         "levélszavazat",
         "külhoni szavazás",
-        "diaszpóra szavazás"
+        "diaszpóra szavazás",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8361,13 +9872,20 @@
         "átláthatóság",
         "ÁSZ",
         "GRECO",
-        "nemzeti konzultáció"
+        "nemzeti konzultáció",
+        "választás",
+        "ellenzék",
+        "kormány"
       ],
       "synonyms": [
         "kampánypénzek",
         "párfinanszírozás",
         "politikai finanszírozás",
-        "kampány költség"
+        "kampány költség",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8393,13 +9911,19 @@
         "AB",
         "alkotmányosság",
         "bírói függetlenség",
-        "alapjogvédelem"
+        "alapjogvédelem",
+        "bíróság",
+        "kormány"
       ],
       "synonyms": [
         "Alkotmánybíróság függetlenség",
         "AB tagok",
         "alkotmányvédelem",
-        "alkotmányossági felülvizsgálat"
+        "alkotmányossági felülvizsgálat",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8425,13 +9949,20 @@
         "OBH",
         "Kúria",
         "igazságszolgáltatás",
-        "jogállamiság"
+        "jogállamiság",
+        "jogállam",
+        "választás",
+        "bíróság"
       ],
       "synonyms": [
         "bírák függetlensége",
         "igazságügyi rendszer",
         "bírói kar",
-        "bíróságok függetlensége"
+        "bíróságok függetlensége",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8457,13 +9988,20 @@
         "Polt Péter",
         "legfőbb ügyész",
         "korrupció",
-        "jogérvényesítés"
+        "jogérvényesítés",
+        "jogállam",
+        "Fidesz",
+        "kormány"
       ],
       "synonyms": [
         "ügyészség függetlenség",
         "Polt Péter",
         "ügyészi munka",
-        "korrupció nyomozás"
+        "korrupció nyomozás",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8489,13 +10027,19 @@
         "alapjogi biztos",
         "jogvédelem",
         "panasz",
-        "Alkotmánybíróság"
+        "Alkotmánybíróság",
+        "bíróság",
+        "kormány"
       ],
       "synonyms": [
         "alapvető jogok biztosa",
         "ombudsman hivatal",
         "jogvédelmi biztos",
-        "emberi jogi biztos"
+        "emberi jogi biztos",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8517,13 +10061,19 @@
         "civil szervezetek",
         "külföldi támogatás",
         "EUB",
-        "egyesülési szabadság"
+        "egyesülési szabadság",
+        "szabadság",
+        "bíróság"
       ],
       "synonyms": [
         "civil szervezet törvény",
         "NGO törvény",
         "külföldi ügynök",
-        "civil szféra"
+        "civil szféra",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8549,13 +10099,20 @@
         "közvetlen demokrácia",
         "NVB",
         "érvényesség",
-        "referendum"
+        "referendum",
+        "választás",
+        "szavazás",
+        "kormány"
       ],
       "synonyms": [
         "referendum",
         "népszavazás kezdeményezés",
         "közvetlen demokrácia",
-        "népi szavazás"
+        "népi szavazás",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8581,13 +10138,19 @@
         "tüntetés",
         "demonstráció",
         "rendőrség",
-        "alapjog"
+        "alapjog",
+        "szabadság",
+        "parlament"
       ],
       "synonyms": [
         "tüntetési jog",
         "demonstrációs jog",
         "utcai tiltakozás",
-        "gyülekezés szabadsága"
+        "gyülekezés szabadsága",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8609,13 +10172,18 @@
         "médiatörvény",
         "NMHH",
         "rémhírterjesztés",
-        "cenzúra"
+        "cenzúra",
+        "szabadság"
       ],
       "synonyms": [
         "véleményszabadság",
         "szabad szólás",
         "véleménynyilvánítás",
-        "szólás korlátai"
+        "szólás korlátai",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8641,13 +10209,20 @@
         "online média",
         "közösségi média",
         "digitális jogok",
-        "cenzúra"
+        "cenzúra",
+        "sajtószabadság",
+        "szabadság",
+        "Orbán"
       ],
       "synonyms": [
         "internet szabadság",
         "online szólásszabadság",
         "digitális szabadság",
-        "netes cenzúra"
+        "netes cenzúra",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8669,13 +10244,20 @@
         "CEU",
         "MTA",
         "egyetemi modellváltás",
-        "kutatás"
+        "kutatás",
+        "jogállam",
+        "szabadság",
+        "kormány"
       ],
       "synonyms": [
         "egyetemi szabadság",
         "CEU ügy",
         "MTA átalakítás",
-        "tudomány szabadsága"
+        "tudomány szabadsága",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8701,13 +10283,18 @@
         "roma",
         "nemzetiségek",
         "szegregáció",
-        "önkormányzat"
+        "önkormányzat",
+        "kormány"
       ],
       "synonyms": [
         "nemzeti kisebbségek",
         "roma jogok",
         "nemzetiségi jogok",
-        "kisebbségvédelem"
+        "kisebbségvédelem",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8729,13 +10316,18 @@
         "gyermekvédelmi törvény",
         "azonos nemű párok",
         "diszkrimináció",
-        "Pride"
+        "Pride",
+        "kormány"
       ],
       "synonyms": [
         "LMBTQ jogok",
         "melegek jogai",
         "szexuális kisebbségek",
-        "Pride Budapest"
+        "Pride Budapest",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8761,13 +10353,19 @@
         "képviselőnők",
         "gender egyenlőség",
         "kvóta",
-        "politikai részvétel"
+        "politikai részvétel",
+        "parlament",
+        "kormány"
       ],
       "synonyms": [
         "női képviselet",
         "nők az Országgyűlésben",
         "gender a politikában",
-        "nők politikai szerepe"
+        "nők politikai szerepe",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8793,13 +10391,19 @@
         "centralizáció",
         "helyi demokrácia",
         "tankerület",
-        "járás"
+        "járás",
+        "ellenzék",
+        "kormány"
       ],
       "synonyms": [
         "helyi önkormányzat",
         "települési autonómia",
         "központosítás",
-        "önkormányzati jog"
+        "önkormányzati jog",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8821,13 +10425,18 @@
         "alkotmánymódosítás",
         "kétharmad",
         "jogállamiság",
-        "különleges jogrend"
+        "különleges jogrend",
+        "bíróság"
       ],
       "synonyms": [
         "alkotmány módosítás",
         "Alaptörvény változás",
         "alkotmányreform",
-        "alaptörvényi módosítások"
+        "alaptörvényi módosítások",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8853,13 +10462,19 @@
         "veszélyhelyzet",
         "COVID",
         "felhatalmazási törvény",
-        "rendeleti kormányzás"
+        "rendeleti kormányzás",
+        "parlament",
+        "kormány"
       ],
       "synonyms": [
         "veszélyhelyzet",
         "különleges jogrend",
         "rendkívüli állapot",
-        "felhatalmazás"
+        "felhatalmazás",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8885,13 +10500,20 @@
         "adatvédelem",
         "GDPR",
         "információszabadság",
-        "Pegasus"
+        "Pegasus",
+        "szabadság",
+        "bíróság",
+        "kormány"
       ],
       "synonyms": [
         "adatvédelmi hatóság",
         "személyes adatok",
         "adatvédelem Magyarország",
-        "NAIH működés"
+        "NAIH működés",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8913,13 +10535,20 @@
         "közérdekű adat",
         "titkosítás",
         "átláthatóság",
-        "Infotv"
+        "Infotv",
+        "jogállam",
+        "szabadság",
+        "bíróság"
       ],
       "synonyms": [
         "közérdekű adatok",
         "adatigénylés",
         "transzparencia",
-        "nyilvánosság"
+        "nyilvánosság",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8945,13 +10574,18 @@
         "sztrájkjog",
         "munkajog",
         "kollektív tárgyalás",
-        "pedagógus sztrájk"
+        "pedagógus sztrájk",
+        "kormány"
       ],
       "synonyms": [
         "szakszervezetek",
         "sztrájk",
         "munkavállalói jogok",
-        "sztrájkjog korlátozás"
+        "sztrájkjog korlátozás",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -8977,13 +10611,20 @@
         "hatalommegosztás",
         "kétharmad",
         "független intézmények",
-        "demokratikus kontroll"
+        "demokratikus kontroll",
+        "jogállam",
+        "választás",
+        "bíróság"
       ],
       "synonyms": [
         "checks and balances",
         "hatalmi ágak",
         "ellensúlyok",
-        "demokratikus fékek"
+        "demokratikus fékek",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9009,13 +10650,20 @@
         "törvényhozás",
         "végrehajtás",
         "bírói hatalom",
-        "függetlenség"
+        "függetlenség",
+        "demokrácia",
+        "választás",
+        "bíróság"
       ],
       "synonyms": [
         "hatalmi ágak",
         "hatalomszétválasztás",
         "Montesquieu elv",
-        "független hatalmi ágak"
+        "független hatalmi ágak",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9037,13 +10685,20 @@
         "koppenhágai kritériumok",
         "2. cikk",
         "jogállamiság",
-        "demokratikus minimum"
+        "demokratikus minimum",
+        "demokrácia",
+        "jogállam",
+        "szabadság"
       ],
       "synonyms": [
         "EU demokrácia követelmény",
         "uniós értékek",
         "tagállami feltételek",
-        "demokratikus elvárások"
+        "demokratikus elvárások",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9069,13 +10724,20 @@
         "demokratikus állapot",
         "Lengyelország",
         "Csehország",
-        "Szlovákia"
+        "Szlovákia",
+        "demokrácia",
+        "jogállam",
+        "szabadság"
       ],
       "synonyms": [
         "V4 demokrácia",
         "Visegrádi négyek összehasonlítás",
         "közép-európai demokrácia",
-        "V4 jogállamiság"
+        "V4 jogállamiság",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9097,13 +10759,20 @@
         "demokratikus visszacsúszás",
         "autokrácia",
         "V-Dem",
-        "politikatudomány"
+        "politikatudomány",
+        "választás",
+        "parlament",
+        "kormány"
       ],
       "synonyms": [
         "demokratikus hanyatlás",
         "democratic backsliding",
         "demokrácia erózió",
-        "autokratizálódás"
+        "autokratizálódás",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9129,13 +10798,20 @@
         "politikai aktivitás",
         "választói részvétel",
         "közösségi média",
-        "diákmozgalom"
+        "diákmozgalom",
+        "választás",
+        "szavazás",
+        "ellenzék"
       ],
       "synonyms": [
         "ifjúsági politika",
         "fiatalok szavazása",
         "generációs politika",
-        "fiatal szavazók"
+        "fiatal szavazók",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9157,13 +10833,20 @@
         "polgári bátorság",
         "civil társadalom",
         "jogvédelem",
-        "oknyomozás"
+        "oknyomozás",
+        "demokrácia",
+        "szabadság",
+        "kormány"
       ],
       "synonyms": [
         "polgári bátorság",
         "civil aktivizmus",
         "társadalmi felelősség",
-        "aktív állampolgárság"
+        "aktív állampolgárság",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9189,13 +10872,19 @@
         "megosztottság",
         "médiabuborék",
         "politikai kommunikáció",
-        "társadalom"
+        "társadalom",
+        "ellenzék",
+        "kormány"
       ],
       "synonyms": [
         "politikai megosztottság",
         "társadalmi polarizáció",
         "politikai törésvonalak",
-        "megosztott társadalom"
+        "megosztott társadalom",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9227,7 +10916,11 @@
         "szavazási részvétel",
         "választási részvétel",
         "voter turnout",
-        "szavazók aránya"
+        "szavazók aránya",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9249,13 +10942,20 @@
         "egyházpolitika",
         "egyháztörvény",
         "állam és egyház",
-        "EJEB"
+        "EJEB",
+        "szabadság",
+        "emberi jogok",
+        "bíróság"
       ],
       "synonyms": [
         "egyház és állam",
         "vallási szabadság",
         "felekezetek",
-        "egyházi törvény"
+        "egyházi törvény",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9277,13 +10977,19 @@
         "jogállamiság",
         "Pegasus",
         "FRPT",
-        "rendészet"
+        "rendészet",
+        "jogállam",
+        "tüntetés"
       ],
       "synonyms": [
         "rendőri munka",
         "rendészeti szervek",
         "rendőrség függetlenség",
-        "közbiztonság"
+        "közbiztonság",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9305,13 +11011,20 @@
         "parlamenti felügyelet",
         "Pegasus",
         "nemzetbiztonság",
-        "megfigyelés"
+        "megfigyelés",
+        "ellenzék",
+        "parlament",
+        "kormány"
       ],
       "synonyms": [
         "titkosszolgálati felügyelet",
         "nemzetbiztonsági ellenőrzés",
         "parlamenti kontroll",
-        "kémszoftver"
+        "kémszoftver",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9333,13 +11046,19 @@
         "közérdekű bejelentés",
         "polgári részvétel",
         "ombudsman",
-        "EP petíció"
+        "EP petíció",
+        "parlament",
+        "kormány"
       ],
       "synonyms": [
         "petíció",
         "beadvány",
         "panaszjog",
-        "állampolgári kérelem"
+        "állampolgári kérelem",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9365,13 +11084,20 @@
         "helyi demokrácia",
         "önkormányzat",
         "járási rendszer",
-        "Budapest"
+        "Budapest",
+        "demokrácia",
+        "választás",
+        "ellenzék"
       ],
       "synonyms": [
         "központosítás",
         "helyi önkormányzatiság",
         "decentralizáció hiánya",
-        "közigazgatási reform"
+        "közigazgatási reform",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9393,13 +11119,19 @@
         "külföldi finanszírozás",
         "Soros",
         "Szuverenitásvédelmi Hivatal",
-        "NGO"
+        "NGO",
+        "szabadság",
+        "kormány"
       ],
       "synonyms": [
         "külföldi támogatású civilek",
         "NGO finanszírozás",
         "civil szféra nyomás",
-        "külföldi ügynök"
+        "külföldi ügynök",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9425,13 +11157,20 @@
         "önkormányzat",
         "részvételi költségvetés",
         "közmeghallgatás",
-        "kistelepülés"
+        "kistelepülés",
+        "demokrácia",
+        "választás",
+        "szavazás"
       ],
       "synonyms": [
         "települési demokrácia",
         "helyi közélet",
         "önkormányzati demokrácia",
-        "helyi részvétel"
+        "helyi részvétel",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9513,13 +11252,20 @@
         "titkosszolgálat",
         "Pegasus",
         "FRPT",
-        "bírói kontroll"
+        "bírói kontroll",
+        "jogállam",
+        "bíróság",
+        "parlament"
       ],
       "synonyms": [
         "rendőrségi felügyelet",
         "megfigyelés kontroll",
         "jogállami felügyelet",
-        "demokratikus ellenőrzés"
+        "demokratikus ellenőrzés",
+        "önkényuralom",
+        "diktatúra",
+        "szabadságjogok",
+        "politikai rendszer"
       ],
       "sources": [
         {
@@ -9545,12 +11291,19 @@
         "energiafüggőség",
         "Gazprom",
         "TurkStream",
-        "diverzifikáció"
+        "diverzifikáció",
+        "energia",
+        "gáz",
+        "függőség"
       ],
       "synonyms": [
         "gázfüggőség",
         "orosz energia",
-        "gázimport Magyarország"
+        "gázimport Magyarország",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9576,12 +11329,19 @@
         "atomerőmű",
         "Roszatom",
         "energiaberuházás",
-        "nukleáris"
+        "nukleáris",
+        "energia",
+        "Paks",
+        "függőség"
       ],
       "synonyms": [
         "Paks bővítés",
         "új atomerőmű",
-        "Paks2"
+        "Paks2",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9607,12 +11367,18 @@
         "élettartam-hosszabbítás",
         "atomerőmű",
         "OAH",
-        "nukleáris biztonság"
+        "nukleáris biztonság",
+        "energia",
+        "Paks"
       ],
       "synonyms": [
         "paksi atomerőmű üzemidő",
         "Paks bezárás",
-        "Paks élettartam"
+        "Paks élettartam",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9638,12 +11404,19 @@
         "napenergia",
         "biomassza",
         "NEKT",
-        "EU klímacél"
+        "EU klímacél",
+        "energia",
+        "megújuló",
+        "szélenergia"
       ],
       "synonyms": [
         "zöld energia arány",
         "megújulók Magyarország",
-        "fenntartható energia"
+        "fenntartható energia",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9669,12 +11442,19 @@
         "naperőmű",
         "HMKE",
         "METÁR",
-        "hálózat"
+        "hálózat",
+        "energia",
+        "Paks",
+        "atomerőmű"
       ],
       "synonyms": [
         "napelem boom",
         "szolár Magyarország",
-        "napelemes rendszer"
+        "napelemes rendszer",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9700,12 +11480,19 @@
         "szélerőmű tilalom",
         "megújuló energia",
         "energiapolitika",
-        "tájvédelem"
+        "tájvédelem",
+        "energia",
+        "Paks",
+        "napenergia"
       ],
       "synonyms": [
         "szélenergia moratórium",
         "szélturbina tilalom",
-        "szélenergia Magyarország"
+        "szélenergia Magyarország",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9731,12 +11518,18 @@
         "termálvíz",
         "megújuló hő",
         "Pannon-medence",
-        "távfűtés"
+        "távfűtés",
+        "energia",
+        "gáz"
       ],
       "synonyms": [
         "földhő",
         "geotermia Magyarország",
-        "termális energia"
+        "termális energia",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9762,12 +11555,19 @@
         "villamosenergia",
         "atomenergia",
         "földgáz",
-        "energiastratégia"
+        "energiastratégia",
+        "energia",
+        "Paks",
+        "gáz"
       ],
       "synonyms": [
         "magyar energiamix",
         "energiaforrások megoszlása",
-        "áramtermelés összetétele"
+        "áramtermelés összetétele",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9793,12 +11593,19 @@
         "energiafüggőség",
         "kőolaj",
         "földgáz",
-        "energiabiztonság"
+        "energiabiztonság",
+        "energia",
+        "Paks",
+        "atomerőmű"
       ],
       "synonyms": [
         "importfüggőség",
         "energia önellátás",
-        "energiaimport arány"
+        "energiaimport arány",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9824,12 +11631,18 @@
         "gázvezeték",
         "Gazprom",
         "gáztranzit",
-        "Balkáni Áramlat"
+        "Balkáni Áramlat",
+        "gáz",
+        "áram"
       ],
       "synonyms": [
         "Déli Áramlat",
         "török gázvezeték",
-        "gáz útvonal"
+        "gáz útvonal",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9855,12 +11668,18 @@
         "Krk-terminál",
         "gázdiverzifikáció",
         "Horvátország",
-        "cseppfolyósított gáz"
+        "cseppfolyósított gáz",
+        "gáz",
+        "földgáz"
       ],
       "synonyms": [
         "LNG terminál Magyarország",
         "cseppfolyós gáz",
-        "Krk-sziget gáz"
+        "Krk-sziget gáz",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9886,12 +11705,19 @@
         "épületszigetelés",
         "felújítás",
         "EPBD",
-        "panelprogram"
+        "panelprogram",
+        "energia",
+        "függőség",
+        "klíma"
       ],
       "synonyms": [
         "hőszigetelés",
         "épületenergetika",
-        "energetikai korszerűsítés"
+        "energetikai korszerűsítés",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9917,12 +11743,17 @@
         "e-mobilitás",
         "akkumulátor",
         "CATL",
-        "zöld rendszám"
+        "zöld rendszám",
+        "zöld"
       ],
       "synonyms": [
         "elektromos jármű",
         "villanyautó",
-        "e-autó Magyarország"
+        "e-autó Magyarország",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9948,12 +11779,17 @@
         "elektromos töltő",
         "AFIR",
         "e-mobi",
-        "gyorstöltő"
+        "gyorstöltő",
+        "energia"
       ],
       "synonyms": [
         "villanyautó töltés",
         "e-autó töltő",
-        "töltőállomás"
+        "töltőállomás",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -9979,12 +11815,18 @@
         "fűtés",
         "szociális kérdés",
         "rezsicsökkentés",
-        "háztartás"
+        "háztartás",
+        "energia",
+        "gáz"
       ],
       "synonyms": [
         "energia szegénység",
         "fűtési szegénység",
-        "energetikai szegénység"
+        "energetikai szegénység",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10010,12 +11852,19 @@
         "hatósági ár",
         "energiaár",
         "költségvetés",
-        "szociálpolitika"
+        "szociálpolitika",
+        "energia",
+        "gáz",
+        "villany"
       ],
       "synonyms": [
         "rezsi",
         "rezsitámogatás",
-        "hatósági energiaár"
+        "hatósági energiaár",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10041,12 +11890,18 @@
         "MAVIR",
         "elosztóhálózat",
         "hálózatfejlesztés",
-        "napenergia integráció"
+        "napenergia integráció",
+        "energia",
+        "napenergia"
       ],
       "synonyms": [
         "elektromos hálózat",
         "áramhálózat fejlesztés",
-        "hálózati kapacitás"
+        "hálózati kapacitás",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10072,12 +11927,19 @@
         "akkumulátor",
         "BESS",
         "napenergia",
-        "hálózat stabilitás"
+        "hálózat stabilitás",
+        "energia",
+        "megújuló",
+        "szélenergia"
       ],
       "synonyms": [
         "energia tárolás",
         "akkumulátoros tárolás",
-        "battéria tárolás"
+        "battéria tárolás",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10103,12 +11965,19 @@
         "zöld hidrogén",
         "hidrogénstratégia",
         "elektrolízis",
-        "MOL"
+        "MOL",
+        "energia",
+        "gáz",
+        "földgáz"
       ],
       "synonyms": [
         "hidrogén gazdaság",
         "H2 stratégia",
-        "hidrogén Magyarország"
+        "hidrogén Magyarország",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10134,12 +12003,19 @@
         "tűzifa",
         "biogáz",
         "megújuló energia",
-        "vidéki energia"
+        "vidéki energia",
+        "energia",
+        "gáz",
+        "megújuló"
       ],
       "synonyms": [
         "biomassza energia",
         "tűzifa fűtés",
-        "bioenergia"
+        "bioenergia",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10165,12 +12041,18 @@
         "vízenergia",
         "Bős-Nagymaros",
         "megújuló energia",
-        "Tisza"
+        "Tisza",
+        "energia",
+        "gáz"
       ],
       "synonyms": [
         "vízerőmű Magyarország",
         "hidroenergia",
-        "vízlépcső"
+        "vízlépcső",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10196,12 +12078,19 @@
         "Párizsi Egyezmény",
         "Fit for 55",
         "kibocsátáscsökkentés",
-        "energiapolitika"
+        "energiapolitika",
+        "energia",
+        "Paks",
+        "gáz"
       ],
       "synonyms": [
         "klímapolitika energia",
         "klímaváltozás energia",
-        "zöld átállás"
+        "zöld átállás",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10227,12 +12116,19 @@
         "üvegházhatás",
         "klímaváltozás",
         "dekarbonizáció",
-        "kibocsátás csökkentés"
+        "kibocsátás csökkentés",
+        "energia",
+        "gáz",
+        "megújuló"
       ],
       "synonyms": [
         "szén-dioxid kibocsátás",
         "karbon kibocsátás",
-        "Magyarország kibocsátás"
+        "Magyarország kibocsátás",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10258,12 +12154,17 @@
         "emissziókereskedelem",
         "kvóta",
         "CO2 ár",
-        "EU klímapolitika"
+        "EU klímapolitika",
+        "klíma"
       ],
       "synonyms": [
         "karbon kereskedelem",
         "kibocsátási kvóta",
-        "szén-dioxid piac"
+        "szén-dioxid piac",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10289,12 +12190,19 @@
         "költség",
         "EU finanszírozás",
         "RRF",
-        "dekarbonizáció"
+        "dekarbonizáció",
+        "energia",
+        "gáz",
+        "megújuló"
       ],
       "synonyms": [
         "zöld átmenet költség",
         "klímasemlegesség ára",
-        "energiaátállás"
+        "energiaátállás",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10320,12 +12228,19 @@
         "ellátásbiztonság",
         "gáztározó",
         "diverzifikáció",
-        "IEA"
+        "IEA",
+        "energia",
+        "Paks",
+        "atomerőmű"
       ],
       "synonyms": [
         "ellátásbiztonság",
         "energia ellátás",
-        "energetikai biztonság"
+        "energetikai biztonság",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10351,12 +12266,19 @@
         "állami energiavállalat",
         "villamosenergia",
         "energiapiac",
-        "állami tulajdon"
+        "állami tulajdon",
+        "energia",
+        "Paks",
+        "atomerőmű"
       ],
       "synonyms": [
         "Magyar Villamos Művek",
         "MVM csoport",
-        "nemzeti energiavállalat"
+        "nemzeti energiavállalat",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10382,12 +12304,19 @@
         "kőolaj",
         "finomító",
         "Druzsba",
-        "energiaipar"
+        "energiaipar",
+        "energia",
+        "gáz",
+        "megújuló"
       ],
       "synonyms": [
         "MOL csoport",
         "magyar olajvállalat",
-        "Százhalombatta finomító"
+        "Százhalombatta finomító",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10413,12 +12342,18 @@
         "rezsicsökkentés",
         "nemzetközi összehasonlítás",
         "Eurostat",
-        "háztartási ár"
+        "háztartási ár",
+        "energia",
+        "gáz"
       ],
       "synonyms": [
         "villanyár összehasonlítás",
         "gázár Európa",
-        "energia ár"
+        "energia ár",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10444,12 +12379,19 @@
         "fűtés",
         "energiafelhasználás",
         "gázfogyasztás",
-        "villamosenergia"
+        "villamosenergia",
+        "energia",
+        "gáz",
+        "földgáz"
       ],
       "synonyms": [
         "otthoni energiafogyasztás",
         "háztartás energia",
-        "fűtési szokások"
+        "fűtési szokások",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10475,12 +12417,18 @@
         "energiahatékonyság",
         "vegyipar",
         "autóipar",
-        "EED"
+        "EED",
+        "energia",
+        "gáz"
       ],
       "synonyms": [
         "ipar energia",
         "gyárak energiafogyasztás",
-        "ipari energiaszükséglet"
+        "ipari energiaszükséglet",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10506,12 +12454,19 @@
         "okos hálózat",
         "okos mérő",
         "digitalizáció",
-        "hálózatfejlesztés"
+        "hálózatfejlesztés",
+        "energia",
+        "megújuló",
+        "napenergia"
       ],
       "synonyms": [
         "intelligens hálózat",
         "okos mérő",
-        "digitális energiahálózat"
+        "digitális energiahálózat",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10537,12 +12492,19 @@
         "energiaszövetkezet",
         "megújuló energia",
         "RED II",
-        "energiaközösség"
+        "energiaközösség",
+        "energia",
+        "gáz",
+        "megújuló"
       ],
       "synonyms": [
         "közösségi energia",
         "energia szövetkezet",
-        "helyi erőmű"
+        "helyi erőmű",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10568,12 +12530,19 @@
         "NEKT",
         "NES 2030",
         "energiapolitika",
-        "klímacél"
+        "klímacél",
+        "energia",
+        "Paks",
+        "megújuló"
       ],
       "synonyms": [
         "nemzeti energiaterv",
         "energiapolitikai stratégia",
-        "NEKT célok"
+        "NEKT célok",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10599,12 +12568,19 @@
         "EU energiapolitika",
         "orosz függőség",
         "megújuló energia",
-        "RRF"
+        "RRF",
+        "energia",
+        "gáz",
+        "megújuló"
       ],
       "synonyms": [
         "EU energiaterv",
         "REPower",
-        "európai energiastratégia"
+        "európai energiastratégia",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10630,12 +12606,19 @@
         "orosz energia",
         "EU szankciók",
         "kőolaj-embargó",
-        "Paks II"
+        "Paks II",
+        "energia",
+        "Paks",
+        "gáz"
       ],
       "synonyms": [
         "energetikai szankciók",
         "orosz szankciók hatás",
-        "szankciós politika"
+        "szankciós politika",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10661,12 +12644,19 @@
         "nukleáris vita",
         "Paks",
         "energiamix",
-        "szén-dioxid-mentes"
+        "szén-dioxid-mentes",
+        "energia",
+        "atomerőmű",
+        "napenergia"
       ],
       "synonyms": [
         "atomerőmű érvek",
         "nukleáris pro kontra",
-        "atomenergia vita"
+        "atomenergia vita",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10692,12 +12682,18 @@
         "Bátaapáti",
         "kiégett fűtőelem",
         "RHK",
-        "nukleáris biztonság"
+        "nukleáris biztonság",
+        "Paks",
+        "atomerőmű"
       ],
       "synonyms": [
         "atomi hulladék",
         "nukleáris hulladék kezelés",
-        "radioaktív tároló"
+        "radioaktív tároló",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10728,7 +12724,11 @@
       "synonyms": [
         "energetikai pályázat",
         "felújítási támogatás",
-        "szigetelés pályázat"
+        "szigetelés pályázat",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10754,12 +12754,19 @@
         "SDG",
         "megújuló energia",
         "energiahatékonyság",
-        "klímavédelem"
+        "klímavédelem",
+        "energia",
+        "gáz",
+        "megújuló"
       ],
       "synonyms": [
         "fenntartható energia",
         "zöld energia",
-        "fenntarthatóság és energia"
+        "fenntarthatóság és energia",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10785,12 +12792,19 @@
         "CO2 csökkentés",
         "klímavédelem",
         "ESG",
-        "egyéni felelősség"
+        "egyéni felelősség",
+        "energia",
+        "gáz",
+        "megújuló"
       ],
       "synonyms": [
         "széndioxid lábnyom",
         "karbon csökkentés",
-        "klímatudatosság"
+        "klímatudatosság",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10816,12 +12830,19 @@
         "rezsicsökkentés",
         "IMF",
         "piactorzítás",
-        "szubvenció"
+        "szubvenció",
+        "energia",
+        "gáz",
+        "megújuló"
       ],
       "synonyms": [
         "fosszilis szubvenció",
         "energia támogatás",
-        "fosszilis energia ár"
+        "fosszilis energia ár",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10847,12 +12868,18 @@
         "szénerőmű",
         "Mátrai Erőmű",
         "szén kivezetés",
-        "Igazságos Átmenet"
+        "Igazságos Átmenet",
+        "energia",
+        "gáz"
       ],
       "synonyms": [
         "szén bezárás",
         "lignit erőmű",
-        "szenes villamosenergia"
+        "szenes villamosenergia",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10878,12 +12905,19 @@
         "elektrolízis",
         "dekarbonizáció",
         "ipar",
-        "hidrogénstratégia"
+        "hidrogénstratégia",
+        "energia",
+        "gáz",
+        "földgáz"
       ],
       "synonyms": [
         "megújuló hidrogén",
         "H2 zöld",
-        "hidrogén gazdaság"
+        "hidrogén gazdaság",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10909,12 +12943,19 @@
         "szabályozás",
         "energiajog",
         "OAH",
-        "energiapiac"
+        "energiapiac",
+        "energia",
+        "megújuló",
+        "szélenergia"
       ],
       "synonyms": [
         "energia szabályozás",
         "energetikai hatóság",
-        "MEKH felügyelet"
+        "MEKH felügyelet",
+        "erőmű",
+        "energiaforrás",
+        "fosszilis",
+        "fenntartható"
       ],
       "sources": [
         {
@@ -10940,12 +12981,18 @@
         "közmédia",
         "médiafüggetlenség",
         "EBU",
-        "közszolgálat"
+        "közszolgálat",
+        "média",
+        "rádió"
       ],
       "synonyms": [
         "magyar közmédia",
         "MTVA függetlenség",
-        "közszolgálati média"
+        "közszolgálati média",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -10971,12 +13018,19 @@
         "MTVA költségvetés",
         "médiafinanszírozás",
         "közpénz",
-        "EBU"
+        "EBU",
+        "média",
+        "közmédia",
+        "MTVA"
       ],
       "synonyms": [
         "közmédia pénz",
         "MTVA költségvetés",
-        "közszolgálati média finanszírozás"
+        "közszolgálati média finanszírozás",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11002,12 +13056,19 @@
         "MPM",
         "RSF",
         "sajtószabadság",
-        "médiakoncentráció"
+        "médiakoncentráció",
+        "média",
+        "sajtó",
+        "közmédia"
       ],
       "synonyms": [
         "média sokszínűség",
         "médiapluralizmus index",
-        "sajtó sokszínűség"
+        "sajtó sokszínűség",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11033,12 +13094,18 @@
         "médiakoncentráció",
         "Mediaworks",
         "sajtószabadság",
-        "médiabirodalom"
+        "médiabirodalom",
+        "média",
+        "sajtó",
+        "rádió"
       ],
       "synonyms": [
         "Közép-Európai Sajtó és Média Alapítvány",
         "KESMA alapítvány",
-        "kormánypárti média"
+        "kormánypárti média",
+        "tájékoztatás",
+        "hírek",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11064,12 +13131,19 @@
         "megyei lapok",
         "KESMA",
         "helyi média",
-        "sajtókoncentráció"
+        "sajtókoncentráció",
+        "média",
+        "sajtó",
+        "online"
       ],
       "synonyms": [
         "megyei napilap",
         "vidéki média",
-        "Mediaworks lapok"
+        "Mediaworks lapok",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11095,12 +13169,19 @@
         "tulajdonosi szerkezet",
         "KESMA",
         "GVH",
-        "EMFA"
+        "EMFA",
+        "média",
+        "sajtó",
+        "közmédia"
       ],
       "synonyms": [
         "média tulajdonos",
         "sajtó koncentráció",
-        "médiapiac szerkezet"
+        "médiapiac szerkezet",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11126,12 +13207,18 @@
         "reklámpiaci torzítás",
         "közpénz",
         "médiafinanszírozás",
-        "Átlátszó"
+        "Átlátszó",
+        "média",
+        "cenzúra"
       ],
       "synonyms": [
         "állami reklám",
         "kormányzati hirdetés",
-        "állami hirdetési pénz"
+        "állami hirdetési pénz",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11157,12 +13244,17 @@
         "hirdetési piac",
         "közpénz",
         "kampányköltés",
-        "médiafinanszírozás"
+        "médiafinanszírozás",
+        "média"
       ],
       "synonyms": [
         "kormányzati hirdetés összeg",
         "állami reklámkiadás",
-        "közpénz média"
+        "közpénz média",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11188,12 +13280,18 @@
         "médiafinanszírozás",
         "előfizetés",
         "crowdfunding",
-        "hirdetés"
+        "hirdetés",
+        "sajtó",
+        "online"
       ],
       "synonyms": [
         "online média pénz",
         "sajtó finanszírozás",
-        "digitális média üzlet"
+        "digitális média üzlet",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11219,12 +13317,17 @@
         "Facebook",
         "politikai kommunikáció",
         "dezinformáció",
-        "TikTok"
+        "TikTok",
+        "média"
       ],
       "synonyms": [
         "social media politika",
         "Facebook Magyarország",
-        "online politika"
+        "online politika",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11250,12 +13353,19 @@
         "dezinformáció",
         "tényellenőrzés",
         "fake news",
-        "Lakmusz"
+        "Lakmusz",
+        "média",
+        "álhír",
+        "online"
       ],
       "synonyms": [
         "hamis hírek",
         "fake news Magyarország",
-        "dezinformáció terjesztés"
+        "dezinformáció terjesztés",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11281,12 +13391,17 @@
         "tényellenőrzés",
         "Lakmusz",
         "DSA",
-        "médiaműveltség"
+        "médiaműveltség",
+        "média"
       ],
       "synonyms": [
         "fake news elleni küzdelem",
         "álhírek elleni védekezés",
-        "fact-checking"
+        "fact-checking",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11312,12 +13427,18 @@
         "Lakmusz",
         "AFP",
         "IFCN",
-        "fact-checking"
+        "fact-checking",
+        "média",
+        "álhír"
       ],
       "synonyms": [
         "fact-checker Magyarország",
         "tényellenőrző",
-        "tényekkel szemben"
+        "tényekkel szemben",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11343,12 +13464,19 @@
         "sajtószabadság",
         "sajtószabadság index",
         "média rangsor",
-        "EU összehasonlítás"
+        "EU összehasonlítás",
+        "média",
+        "sajtó",
+        "közmédia"
       ],
       "synonyms": [
         "sajtószabadság rangsor",
         "RSF index",
-        "Riporterek Határok Nélkül"
+        "Riporterek Határok Nélkül",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11374,12 +13502,19 @@
         "SLAPP",
         "Pegasus",
         "sajtószabadság",
-        "CPJ"
+        "CPJ",
+        "sajtó",
+        "újságíró",
+        "online"
       ],
       "synonyms": [
         "újságíró zaklat",
         "sajtó megfélemlítés",
-        "média nyomás"
+        "média nyomás",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11405,12 +13540,19 @@
         "média sivatag",
         "vidéki sajtó",
         "önkormányzat",
-        "információs hozzáférés"
+        "információs hozzáférés",
+        "média",
+        "újságíró",
+        "televízió"
       ],
       "synonyms": [
         "vidéki média",
         "helyi újság",
-        "média sivatag Magyarország"
+        "média sivatag Magyarország",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11436,12 +13578,18 @@
         "EMFA",
         "újságírás",
         "tulajdonosi nyomás",
-        "autonómia"
+        "autonómia",
+        "média",
+        "közmédia"
       ],
       "synonyms": [
         "szerkesztőségi autonómia",
         "szerkesztőség függetlenség",
-        "média függetlenség"
+        "média függetlenség",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11467,12 +13615,18 @@
         "Médiatanács",
         "médiahatóság",
         "médiatörvény",
-        "frekvencia"
+        "frekvencia",
+        "média",
+        "rádió"
       ],
       "synonyms": [
         "médiahatóság Magyarország",
         "NMHH működés",
-        "Médiatanács szerep"
+        "Médiatanács szerep",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11498,12 +13652,19 @@
         "2010",
         "NMHH",
         "sajtószabadság",
-        "szabályozás"
+        "szabályozás",
+        "média",
+        "sajtó",
+        "online"
       ],
       "synonyms": [
         "médiatörvény hatás",
         "2010-es médiatörvény",
-        "médiaszabályozás reform"
+        "médiaszabályozás reform",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11529,12 +13690,18 @@
         "frekvenciakiosztás",
         "Médiatanács",
         "sajtószabadság",
-        "rádió"
+        "rádió",
+        "média",
+        "újságíró"
       ],
       "synonyms": [
         "Klubrádió ügy",
         "rádió frekvencia",
-        "Klubrádió bezárás"
+        "Klubrádió bezárás",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11560,12 +13727,19 @@
         "szerkesztőségi válság",
         "sajtószabadság",
         "Telex",
-        "függetlenség"
+        "függetlenség",
+        "média",
+        "újságíró",
+        "online"
       ],
       "synonyms": [
         "Index válság",
         "Index szerkesztőség",
-        "Index.hu 2020"
+        "Index.hu 2020",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11591,12 +13765,19 @@
         "444",
         "HVG",
         "független média",
-        "online sajtó"
+        "online sajtó",
+        "média",
+        "újságíró",
+        "online"
       ],
       "synonyms": [
         "független online portál",
         "Telex 444 HVG",
-        "független sajtó Magyarország"
+        "független sajtó Magyarország",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11627,7 +13808,11 @@
       "synonyms": [
         "investigatív újságírás",
         "tényfeltáró újságírás",
-        "oknyomozás"
+        "oknyomozás",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11653,12 +13838,19 @@
         "információszabadság",
         "NAIH",
         "átláthatóság",
-        "Átlátszó"
+        "Átlátszó",
+        "média",
+        "sajtó",
+        "újságíró"
       ],
       "synonyms": [
         "adatigénylés",
         "információszabadság",
-        "közadat hozzáférés"
+        "közadat hozzáférés",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11684,12 +13876,18 @@
         "médiaelemzés",
         "tartalomelemzés",
         "médiakutatás",
-        "médiapolitika"
+        "médiapolitika",
+        "média",
+        "közmédia"
       ],
       "synonyms": [
         "Mérték Műhely",
         "médiaelemző",
-        "médiamonitoring"
+        "médiamonitoring",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11715,12 +13913,18 @@
         "politikai műsor",
         "elfogultság",
         "M1",
-        "közmédia"
+        "közmédia",
+        "média",
+        "online"
       ],
       "synonyms": [
         "politikai vita",
         "tévés politikai műsor",
-        "politikai talk show elfogultság"
+        "politikai talk show elfogultság",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11746,12 +13950,17 @@
         "Medián",
         "Századvég",
         "felmérés",
-        "módszertan"
+        "módszertan",
+        "média"
       ],
       "synonyms": [
         "közvélemény kutatás megbízhatóság",
         "szavazási szándék mérés",
-        "pollok Magyarország"
+        "pollok Magyarország",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11777,12 +13986,18 @@
         "Megafon",
         "dezinformáció",
         "közösségi média",
-        "CIB"
+        "CIB",
+        "média",
+        "online"
       ],
       "synonyms": [
         "kommenthadsereg",
         "troll gyár",
-        "online befolyásolás"
+        "online befolyásolás",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11808,12 +14023,18 @@
         "kormányzati kommunikáció",
         "manipuláció",
         "kampány",
-        "ellenségkép"
+        "ellenségkép",
+        "média",
+        "közmédia"
       ],
       "synonyms": [
         "médiapropaganda",
         "politikai propaganda",
-        "manipulatív média"
+        "manipulatív média",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11839,12 +14060,19 @@
         "kormányzati kommunikáció",
         "kampány",
         "közpénz",
-        "közvetlen demokrácia"
+        "közvetlen demokrácia",
+        "média",
+        "propaganda",
+        "közmédia"
       ],
       "synonyms": [
         "konzultáció kormány",
         "nemzeti kérdőív",
-        "kormánykommunikáció"
+        "kormánykommunikáció",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11875,7 +14103,11 @@
       "synonyms": [
         "kormány plakát",
         "kampány költség",
-        "plakátháború"
+        "plakátháború",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11901,12 +14133,19 @@
         "nemzetközi média",
         "Magyarország-kép",
         "EU",
-        "sajtóvisszhang"
+        "sajtóvisszhang",
+        "média",
+        "sajtó",
+        "közmédia"
       ],
       "synonyms": [
         "külföldi média Magyarország",
         "nemzetközi sajtó vélemény",
-        "Magyarország külföldi sajtóban"
+        "Magyarország külföldi sajtóban",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11932,12 +14171,18 @@
         "media literacy",
         "oktatás",
         "NAT",
-        "digitális kompetencia"
+        "digitális kompetencia",
+        "média",
+        "dezinformáció"
       ],
       "synonyms": [
         "médiaismeret",
         "médiagramottsság",
-        "kritikus médiafogyasztás"
+        "kritikus médiafogyasztás",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11963,12 +14208,19 @@
         "médiahasználat",
         "gyermekvédelem",
         "online biztonság",
-        "TikTok"
+        "TikTok",
+        "média",
+        "televízió",
+        "online"
       ],
       "synonyms": [
         "gyerekek és média",
         "kiskorúak online",
-        "gyermek médiavédelem"
+        "gyermek médiavédelem",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -11994,12 +14246,18 @@
         "álhír felismerés",
         "tényellenőrzés",
         "médiaműveltség",
-        "kritikus gondolkodás"
+        "kritikus gondolkodás",
+        "média",
+        "álhír"
       ],
       "synonyms": [
         "álhír felismerés",
         "hamis hír azonosítás",
-        "fake news felismerés"
+        "fake news felismerés",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -12025,12 +14283,18 @@
         "YouTube",
         "Partizán",
         "digitális média",
-        "újságírás"
+        "újságírás",
+        "média",
+        "újságíró"
       ],
       "synonyms": [
         "podcast újságírás",
         "YouTube média",
-        "videó újságírás"
+        "videó újságírás",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -12056,12 +14320,19 @@
         "AI újságírás",
         "deepfake",
         "automatizálás",
-        "EU AI Act"
+        "EU AI Act",
+        "média",
+        "újságíró",
+        "dezinformáció"
       ],
       "synonyms": [
         "MI és média",
         "AI újságírás",
-        "mesterséges intelligencia média"
+        "mesterséges intelligencia média",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -12087,12 +14358,19 @@
         "sajtószabadság",
         "Freedom House",
         "V-Dem",
-        "közszolgálat"
+        "közszolgálat",
+        "média",
+        "sajtó",
+        "közmédia"
       ],
       "synonyms": [
         "média és demokrácia",
         "sajtó szerepe demokráciában",
-        "szabad sajtó demokrácia"
+        "szabad sajtó demokrácia",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -12118,12 +14396,17 @@
         "jogi zaklatás",
         "újságíró védelem",
         "pereskedés",
-        "EU irányelv"
+        "EU irányelv",
+        "újságíró"
       ],
       "synonyms": [
         "SLAPP per",
         "jogi megfélemlítés",
-        "stratégiai pereskedés"
+        "stratégiai pereskedés",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -12149,12 +14432,19 @@
         "kérdezési jog",
         "sajtószabadság",
         "Országgyűlés",
-        "kormányfő"
+        "kormányfő",
+        "média",
+        "sajtó",
+        "újságíró"
       ],
       "synonyms": [
         "sajtó hozzáférés",
         "kérdezés korlátozás",
-        "sajtótájékoztató jog"
+        "sajtótájékoztató jog",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -12180,12 +14470,17 @@
         "közösségi finanszírozás",
         "Telex",
         "Átlátszó",
-        "médiafinanszírozás"
+        "médiafinanszírozás",
+        "média"
       ],
       "synonyms": [
         "közösségi adomány",
         "olvasói támogatás",
-        "crowdfunding média"
+        "crowdfunding média",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -12211,12 +14506,18 @@
         "frekvenciakiosztás",
         "közösségi rádió",
         "Médiatanács",
-        "Tilos Rádió"
+        "Tilos Rádió",
+        "média",
+        "rádió"
       ],
       "synonyms": [
         "vidéki rádió",
         "helyi rádiók Magyarország",
-        "közösségi rádió"
+        "közösségi rádió",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -12242,12 +14543,19 @@
         "lapbezárás",
         "Népszabadság",
         "digitális átállás",
-        "példányszám"
+        "példányszám",
+        "sajtó",
+        "újságíró",
+        "online"
       ],
       "synonyms": [
         "nyomtatott újság hanyatlás",
         "nyomtatott sajtó válság",
-        "újságok bezárása"
+        "újságok bezárása",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -12273,12 +14581,19 @@
         "digitális átalakulás",
         "médiainnováció",
         "fenntarthatóság",
-        "EMFA"
+        "EMFA",
+        "média",
+        "újságíró",
+        "közmédia"
       ],
       "synonyms": [
         "újságírás Magyarország jövő",
         "média jövő",
-        "sajtó átalakulás"
+        "sajtó átalakulás",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
@@ -12304,12 +14619,19 @@
         "videóújságírás",
         "World Press Photo",
         "vizuális média",
-        "MÚOSZ"
+        "MÚOSZ",
+        "média",
+        "sajtó",
+        "újságíró"
       ],
       "synonyms": [
         "sajtófotó",
         "videó újságírás",
-        "vizuális újságírás"
+        "vizuális újságírás",
+        "tájékoztatás",
+        "hírek",
+        "médiabirodalom",
+        "kormánymédia"
       ],
       "sources": [
         {
