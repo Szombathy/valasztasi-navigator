@@ -11,7 +11,7 @@ Egy teljesen kliensoldali, statikus PWA alkalmazás, amely egy előre szerkeszte
 - Progresszív Webalkalmazás — telepíthető telefonra
 - Teljes offline működés Service Worker-rel
 - Világos/sötét mód
-- Nincs adatgyűjtés, nincs tracking, nincs backend
+- Cookie-mentes analitika (Cloudflare Web Analytics), nincs backend
 
 ## Telepítés és fejlesztés
 
@@ -69,12 +69,36 @@ Ez frissíti a `public/qa-database.json` fájl `embedding` mezőit.
 | Energia | Rezsicsökkentés, Paks II, megújulók, gázfüggőség |
 | Média | Állami média, KESMA, sajtószabadság-index |
 
+## Analytics
+
+Az alkalmazás **Cloudflare Web Analytics**-et használ, ami cookie-mentes, GDPR-kompatibilis és ingyenes.
+
+### Cloudflare Web Analytics beállítása
+
+1. Nyisd meg a [Cloudflare Dashboard](https://dash.cloudflare.com/)-ot
+2. Navigálj: **Workers & Pages → valasztasi-nav → Analytics → Web Analytics**
+3. Másold ki a Web Analytics tokent
+4. Az `index.html` fájlban cseréld ki a `CLOUDFLARE_ANALYTICS_TOKEN` placeholder-t a valódi tokenre:
+   ```html
+   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "IDE_A_VALÓDI_TOKEN"}'></script>
+   ```
+
+### Egyedi session analytics
+
+A Cloudflare Web Analytics mellett van egy kliensoldali session analytics modul (`src/lib/analytics.js`), amely a session idejére memóriában tárolja:
+- Keresések (keresőszöveg, találatok száma)
+- Megnyitott kérdések (ID, kategória)
+- Kategória szűrések
+
+**Fejlesztői hozzáférés:** Nyisd meg a „Rólunk" modalt, majd írd be a `stats` szót — megjelenik az aktuális session statisztikája.
+
 ## Technológiák
 
 - React 18+ (Vite build)
 - Tailwind CSS v4
 - Service Worker (offline PWA)
 - Marked (markdown renderelés)
+- Cloudflare Web Analytics (cookie-mentes analitika)
 
 ## Licensz
 

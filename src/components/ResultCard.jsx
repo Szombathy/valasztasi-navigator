@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import { CATEGORY_MAP } from '../data/categories.jsx'
 import AnswerView from './AnswerView.jsx'
+import { trackQuestionOpen } from '../lib/analytics.js'
 
 const DIFFICULTY_COLORS = {
   'egyszerű': 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400',
@@ -44,7 +45,10 @@ export default function ResultCard({ item, index }) {
         borderLeftWidth: '4px',
         borderLeftColor: cat?.color || '#999',
       }}
-      onClick={() => setExpanded(!expanded)}
+      onClick={() => {
+        if (!expanded) trackQuestionOpen(item.id, item.category, item.question)
+        setExpanded(!expanded)
+      }}
       role="button"
       tabIndex={0}
       onKeyDown={(e) => { if (e.key === 'Enter') setExpanded(!expanded) }}

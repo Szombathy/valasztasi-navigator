@@ -1,5 +1,6 @@
 import { useState, useCallback, useRef, useEffect } from 'react'
 import { search, browseCategory } from '../lib/search-engine.js'
+import { trackSearch } from '../lib/analytics.js'
 
 export function useSearch(questions) {
   const [query, setQuery] = useState('')
@@ -22,6 +23,7 @@ export function useSearch(questions) {
     const r = search(questions, q, cat)
     setResults(r)
     setIsSearching(false)
+    if (q) trackSearch(q, r.length)
   }, [questions])
 
   const handleQueryChange = useCallback((value) => {

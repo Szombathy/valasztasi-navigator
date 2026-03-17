@@ -1,4 +1,5 @@
 import { CATEGORIES, ICONS } from '../data/categories.jsx'
+import { trackCategoryFilter } from '../lib/analytics.js'
 
 export default function CategoryFilter({ activeCategory, onCategoryChange }) {
   return (
@@ -19,7 +20,7 @@ export default function CategoryFilter({ activeCategory, onCategoryChange }) {
         {CATEGORIES.map(cat => (
           <button
             key={cat.id}
-            onClick={() => onCategoryChange(cat.id)}
+            onClick={() => { trackCategoryFilter(cat.label); onCategoryChange(cat.id) }}
             className="shrink-0 px-3 py-1.5 rounded-full text-sm font-medium transition-colors flex items-center gap-1.5"
             style={
               activeCategory === cat.id
