@@ -1,9 +1,10 @@
 import { tokenizeForSearch, normalize, stem } from './tokenizer.js'
 import synonymMap from './synonym-map.js'
+import termEmbeddings from './term-embeddings.js'
+import { cosineSimilarity } from './cosine.js'
 
 /**
  * Expand query tokens using the synonym map.
- * Returns { queryTokens, expandedTokens } where expandedTokens includes originals + synonyms.
  */
 function expandTokens(queryTokens) {
   const expanded = new Set(queryTokens)
@@ -22,8 +23,7 @@ function expandTokens(queryTokens) {
       }
     }
 
-    // Prefix/contains match: if the token starts with a synonym key (or vice versa)
-    // This helps with conjugated forms like "hulyitik" matching "hulyit"
+    // Prefix match: if the token starts with a synonym key
     for (const key of synonymKeys) {
       if (key.length >= 3 && (token.startsWith(key) || stemmed.startsWith(key))) {
         for (const syn of synonymMap[key]) {
@@ -37,9 +37,49 @@ function expandTokens(queryTokens) {
 }
 
 /**
- * Calculate multi-layer relevance score for a question against query tokens.
+ * Build a query embedding by averaging term embeddings for the expanded tokens.
+ * Returns null if no term embeddings match.
  */
-function calculateScore(queryTokens, expandedTokens, question) {
+function buildQueryEmbedding(expandedTokens) {
+  const matchedVecs = []
+
+  for (const token of expandedTokens) {
+    if (termEmbeddings[token]) {
+      matchedVecs.push(termEmbeddings[token])
+    }
+  }
+
+  if (matchedVecs.length === 0) return null
+
+  // Average all matched vectors
+  const dim = matchedVecs[0].length
+  const avg = new Array(dim).fill(0)
+  for (const vec of matchedVecs) {
+    for (let i = 0; i < dim; i++) {
+      avg[i] += vec[i]
+    }
+  }
+
+  // Normalize to unit vector
+  let mag = 0
+  for (let i = 0; i < dim; i++) {
+    avg[i] /= matchedVecs.length
+    mag += avg[i] * avg[i]
+  }
+  mag = Math.sqrt(mag)
+  if (mag > 0) {
+    for (let i = 0; i < dim; i++) {
+      avg[i] /= mag
+    }
+  }
+
+  return avg
+}
+
+/**
+ * Calculate multi-layer keyword relevance score.
+ */
+function calculateKeywordScore(queryTokens, expandedTokens, question) {
   let score = 0
 
   const normalizedQuestion = normalize(question.question)
@@ -47,51 +87,39 @@ function calculateScore(queryTokens, expandedTokens, question) {
   const normalizedSynonyms = (question.synonyms || []).map(s => normalize(s))
   const normalizedAnswer = normalize(question.answer)
   const normalizedCategory = normalize(question.category)
-
-  // Combine all text for partial matching
   const allText = normalizedQuestion + ' ' + normalizedTags.join(' ') + ' ' + normalizedSynonyms.join(' ')
 
-  // A) Exact match in question text (highest weight) — original tokens only
+  // A) Exact match in question text (+10)
   for (const token of queryTokens) {
-    if (normalizedQuestion.includes(token)) {
-      score += 10
-    }
+    if (normalizedQuestion.includes(token)) score += 10
   }
 
-  // B) Tag match (high weight — tags are hand-curated)
+  // B) Tag match (+8)
   for (const token of expandedTokens) {
-    if (normalizedTags.some(tag => tag.includes(token) || token.includes(tag))) {
-      score += 8
-    }
+    if (normalizedTags.some(tag => tag.includes(token) || token.includes(tag))) score += 8
   }
 
-  // C) Synonym match from database (medium weight)
+  // C) Synonym match from DB (+6)
   for (const token of expandedTokens) {
-    if (normalizedSynonyms.some(syn => syn.includes(token) || token.includes(syn))) {
-      score += 6
-    }
+    if (normalizedSynonyms.some(syn => syn.includes(token) || token.includes(syn))) score += 6
   }
 
-  // D) Answer text match (lower weight) — original tokens only
+  // D) Answer text match (+3)
   for (const token of queryTokens) {
-    if (normalizedAnswer.includes(token)) {
-      score += 3
-    }
+    if (normalizedAnswer.includes(token)) score += 3
   }
 
-  // E) Category boost — if expanded tokens match the category name
+  // E) Category boost (+5)
   for (const token of expandedTokens) {
     if (normalizedCategory.includes(token) || token.includes(normalizedCategory)) {
       score += 5
-      break // Only one category boost per question
+      break
     }
   }
 
-  // F) Partial/substring match bonus for compound words
+  // F) Partial/compound word match (+2)
   for (const token of queryTokens) {
-    if (token.length >= 4 && allText.includes(token)) {
-      score += 2
-    }
+    if (token.length >= 4 && allText.includes(token)) score += 2
   }
 
   return score
@@ -110,10 +138,8 @@ export function search(questions, query, activeCategory = null) {
 
   const queryTokens = tokenizeForSearch(query)
   if (queryTokens.length === 0) {
-    // If all tokens were stop words, try with just normalized words (no stop word filtering)
     const fallback = normalize(query).split(/\s+/).filter(t => t.length > 1)
     if (fallback.length === 0) return []
-    // Use fallback tokens
     return searchWithTokens(questions, fallback, fallback, activeCategory)
   }
 
@@ -122,13 +148,34 @@ export function search(questions, query, activeCategory = null) {
 }
 
 function searchWithTokens(questions, queryTokens, expandedTokens, activeCategory) {
+  // Build query embedding from expanded tokens
+  const queryEmbedding = buildQueryEmbedding(expandedTokens)
+
+  // Compute max possible keyword score for normalization
+  // Rough estimate: each query token can contribute max ~29 points
+  const maxKeyword = queryTokens.length * 29 + expandedTokens.length * 14
+  const hasEmbeddings = queryEmbedding !== null
+
   const results = questions
     .filter(q => !activeCategory || q.category === activeCategory)
     .map(item => {
-      const score = calculateScore(queryTokens, expandedTokens, item)
-      return { ...item, score }
+      const keywordScore = calculateKeywordScore(queryTokens, expandedTokens, item)
+      const normalizedKeyword = maxKeyword > 0 ? Math.min(keywordScore / maxKeyword, 1) : 0
+
+      let finalScore
+      if (hasEmbeddings && item.embedding && item.embedding.length > 0) {
+        // Blend keyword + semantic similarity
+        const similarity = cosineSimilarity(queryEmbedding, item.embedding)
+        // Clamp similarity to [0, 1]
+        const clampedSim = Math.max(0, similarity)
+        finalScore = 0.5 * normalizedKeyword + 0.5 * clampedSim
+      } else {
+        finalScore = normalizedKeyword
+      }
+
+      return { ...item, score: finalScore }
     })
-    .filter(r => r.score >= 3)
+    .filter(r => r.score > 0.01)
     .sort((a, b) => b.score - a.score)
     .slice(0, 8)
 
