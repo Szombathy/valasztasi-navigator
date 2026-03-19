@@ -4,6 +4,7 @@ import { useOffline } from './hooks/useOffline.js'
 import Header from './components/Header.jsx'
 import SearchBar from './components/SearchBar.jsx'
 import CategoryFilter from './components/CategoryFilter.jsx'
+import DifficultyFilter from './components/DifficultyFilter.jsx'
 import ResultList from './components/ResultList.jsx'
 import OfflineIndicator from './components/OfflineIndicator.jsx'
 import FeedbackButton from './components/FeedbackButton.jsx'
@@ -20,12 +21,12 @@ export default function App() {
   const { data, loading, error } = useDatabase()
   const questions = data?.questions || []
   const {
-    query, results, activeCategory, isSearching,
-    handleQueryChange, handleCategoryChange, clearSearch,
+    query, results, activeCategory, activeDifficulty, isSearching,
+    handleQueryChange, handleCategoryChange, handleDifficultyChange, clearSearch,
   } = useSearch(questions)
   const isOffline = useOffline()
 
-  const showWelcome = !query && !activeCategory && !isSearching
+  const showWelcome = !query && !activeCategory && !activeDifficulty && !isSearching
 
   const handleExampleClick = (text) => {
     handleQueryChange(text)
@@ -88,8 +89,9 @@ export default function App() {
             )}
 
             {!showWelcome && (
-              <div className="mb-6">
+              <div className="mb-6 space-y-2">
                 <CategoryFilter activeCategory={activeCategory} onCategoryChange={handleCategoryChange} />
+                <DifficultyFilter activeDifficulty={activeDifficulty} onDifficultyChange={handleDifficultyChange} />
               </div>
             )}
 

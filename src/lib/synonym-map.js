@@ -113,11 +113,13 @@ const synonymMap = {
   "szabadsag": ["demokracia", "jogallam", "emberi jogok", "sajto", "velo"],
   "demokracia": ["jogallam", "szabadsag", "valasztas", "parlament", "emberi jogok", "ellenzek"],
   "jogallam": ["demokracia", "szabadsag", "jogallamisag", "birosag", "eu"],
-  "valasztas": ["szavazas", "orszaggyulesi", "kampany", "part", "demokracia"],
+  "valasztas": ["szavazas", "orszaggyulesi", "kampany", "part", "demokracia", "valasztokerulet", "gerrymandering"],
   "szavazas": ["valasztas", "kampany", "szavazo", "part", "demokracia"],
   "ellenzek": ["part", "valasztas", "parlament", "demokracia", "kormany"],
   "parlament": ["orszaggyules", "kepviselo", "demokracia", "torveny", "ellenzek"],
   "tuntetes": ["tiltakozas", "demokracia", "szabadsag", "sztrajk"],
+  "gerrymandering": ["valasztokerulet", "manipulacio", "keruletrajzolas", "lejt a palya", "valasztasi rendszer"],
+  "kerulet": ["valasztokerulet", "gerrymandering", "egyeni korzet"],
 
   // ===== Energia =====
   "atom": ["paks", "atomenergia", "nuklearis", "eromu"],

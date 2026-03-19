@@ -1,4 +1,27 @@
+import { useState } from 'react'
 import ResultCard from './ResultCard.jsx'
+
+function DifficultyLegend() {
+  const [show, setShow] = useState(false)
+  return (
+    <span className="relative inline-flex items-center">
+      <button
+        onClick={() => setShow(!show)}
+        className="ml-1 w-4 h-4 rounded-full border border-gray-300 dark:border-gray-600 text-gray-400 dark:text-gray-500 text-[10px] leading-none flex items-center justify-center hover:bg-gray-100 dark:hover:bg-gray-800"
+        aria-label="Nehézségi szintek magyarázata"
+      >
+        i
+      </button>
+      {show && (
+        <div className="absolute left-6 top-0 z-10 w-64 p-2.5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg text-xs text-gray-600 dark:text-gray-300 space-y-1">
+          <p><span className="font-semibold text-green-600 dark:text-green-400">Egyszerű</span> = rövid, közérthető válasz</p>
+          <p><span className="font-semibold text-amber-600 dark:text-amber-400">Közepes</span> = részletesebb, számokkal</p>
+          <p><span className="font-semibold text-red-600 dark:text-red-400">Részletes</span> = mélyebb elemzés, háttér</p>
+        </div>
+      )}
+    </span>
+  )
+}
 
 export default function ResultList({ results, isSearching, query, activeCategory }) {
   if (isSearching) {
@@ -37,6 +60,10 @@ export default function ResultList({ results, isSearching, query, activeCategory
 
   return (
     <div className="space-y-3.5">
+      <div className="flex items-center text-xs text-gray-400 dark:text-gray-500">
+        <span>{results.length} találat</span>
+        <DifficultyLegend />
+      </div>
       {results.map((item, i) => (
         <ResultCard key={item.id} item={item} index={i} />
       ))}
